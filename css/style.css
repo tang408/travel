@@ -1,38 +1,126 @@
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 header .navbar {
-  background-color: #f9f9f9;
+    background-color: #f9f9f9;
 }
 
 header .text-item li a {
-  color: #68a9e1 !important;
-  font-weight: 900;
+    color: #68a9e1 !important;
+    font-weight: 900;
 }
 
 header .text-item li a:active {
-  color: #68a9e1 !important;
+    color: #68a9e1 !important;
 }
 
 header .icon-item a {
-  padding-left: 1vw !important;
-  padding-right: 1vw !important;
+    padding-left: 1vw !important;
+    padding-right: 1vw !important;
 }
 
 main {
-  text-align: center;
+    text-align: center;
 }
+
 
 /* 1 */
+
 main .banner {
-  background-image: url("/img/background-1.png");
-  width: 100%;
-  background-repeat: no-repeat;
+    background-image: url("/img/background-1.png");
+    width: 100%;
+    background-repeat: no-repeat;
 }
 
+.online img {
+    width: 40vw;
+    margin: 0 0 2vh 0;
+}
+
+.date img {
+    width: 20vw;
+}
+
+.title img {
+    width: 65vw;
+    margin: 2vh 0 0 0;
+}
+
+.earthPart {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.earthPart img {
+    position: absolute;
+}
+
+.travel-around {
+    margin-top: 15vh;
+    z-index: 11;
+    width: 60vw;
+}
+
+.girl {
+    width: 25%;
+    margin-top: 22vh;
+    margin-left: 5vw;
+}
+
+.airplane {
+    width: 45%;
+    margin-top: 30vh;
+}
+
+.earth {
+    width: 30%;
+    margin-top: 28vh;
+}
+
+.chanceYellow {
+    width: 20%;
+    margin-top: 6vh;
+    margin-left: 20vw;
+}
+
+
 /* 2 */
+
+.purpleBtn {
+    margin-top: 65vh;
+    width: 35%;
+}
+
+.buyToGet {
+    width: 40%;
+    margin: 8vh 0 5vh 0;
+}
+
+.activityTitle {
+    color: #108db6;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-top: 30px;
+}
+
+.activityInfo {
+    color: #108db6;
+    font-size: 1.6rem;
+    line-height: 4rem;
+}
+
+.doublePlane {
+    padding: 0px 20px;
+    background-color: #108db6;
+    color: #fcff00;
+}
+
+
 /* main .banner {
   position: fixed;
   left: 0;
@@ -44,23 +132,34 @@ main .banner {
 } */
 
 .imgBackground-one {
-  height: 2250px;
-  padding: 5vh 0;
+    height: 200vh;
+    padding: 5vh 0;
 }
 
 @media (min-width: 992px) {
-  .text-item li a {
-    padding-left: 2vw !important;
-    padding-right: 2vw !important;
-  }
-  .text-item li:before {
-    content: "|";
-    float: left;
-    color: #68a9e1;
-    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-  }
+    .text-item li a {
+        padding-left: 2vw !important;
+        padding-right: 2vw !important;
+    }
+    .text-item li:before {
+        content: "|";
+        float: left;
+        color: #68a9e1;
+        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    }
+    .text-item li:first-child:before {
+        display: none;
+    }
+}
 
-  .text-item li:first-child:before {
-    display: none;
-  }
+
+/* 粉圓體 */
+
+@font-face {
+    font-family: FakePearl-Regular;
+    src: url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff) format("woff");
+}
+
+.pearlFont {
+    font-family: 'FakePearl-Regular';
 }

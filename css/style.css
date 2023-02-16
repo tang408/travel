@@ -172,7 +172,7 @@ main .banner {
 .activityInfo {
     color: #108db6;
     font-size: 2rem;
-    line-height: 5rem;
+    line-height: 4rem;
 }
 
 .doublePlane {
@@ -198,7 +198,7 @@ main .banner {
 .ring {
     position: absolute;
     left: 55%;
-    top: -18%;
+    top: -10%;
     width: 15%;
 }
 
@@ -212,14 +212,14 @@ main .banner {
 .tree {
     position: absolute;
     right: 0;
-    top: -70%;
+    top: -25%;
     width: 20%;
 }
 
 .starfishBlue {
     position: absolute;
     left: 5%;
-    top: 40%;
+    top: 20%;
     width: 15%;
 }
 

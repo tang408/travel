@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./css/accordionPart.css" />
     <link rel="stylesheet" href="./css/bottomPart.css" />
     <link rel="stylesheet" href="./css/eventPart.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -107,6 +110,20 @@
                     <img class="starfish rotateSlow" src="./img/starfish.png" alt="" />
                     <br />
                     <img class="signUpTitle" src="./img/優惠訂起來.png" alt="" />
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                            <div class="swiper-slide">Slide 6</div>
+                            <div class="swiper-slide">Slide 7</div>
+                            <div class="swiper-slide">Slide 8</div>
+                            <div class="swiper-slide">Slide 9</div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
                 <div class="eventPart">
                     <img class="activitiesInfo" src="./img/activities.png" alt="" />
@@ -268,4 +285,15 @@
             //     })
             // })
     }
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 20,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: false,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        }
+    });
 </script>

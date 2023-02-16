@@ -218,6 +218,7 @@ main .banner {
 
 .signUpTitle {
     margin-top: 4%;
+    height: 12vh;
 }
 
 
@@ -306,6 +307,10 @@ main .banner {
     position: absolute;
     width: 25vw;
     right: 1%;
+}
+
+.activitiesInfo {
+    height: 14vh;
 }
 
 

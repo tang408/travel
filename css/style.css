@@ -29,7 +29,7 @@ main {
 /* 1 */
 
 main .banner {
-    background-image: url("/img/background-1.png");
+    background-image: url("./img/background-1.png");
     width: 100%;
     background-repeat: no-repeat;
 }
@@ -141,12 +141,14 @@ main .banner {
         padding-left: 2vw !important;
         padding-right: 2vw !important;
     }
+
     .text-item li:before {
         content: "|";
         float: left;
         color: #68a9e1;
         padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     }
+
     .text-item li:first-child:before {
         display: none;
     }

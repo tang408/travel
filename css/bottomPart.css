@@ -1,13 +1,74 @@
 .surfPart {
-    height: 92vh;
+    height: 95vh;
     background-image: url('../img/bottomFrame/frame.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     align-items: center;
     justify-content: center;
     display: flex;
+    position: relative;
 }
 
 .bottomTitle {
-    width: 50%;
+    width: 45%;
+}
+
+.surf {
+    position: absolute;
+    right: 8%;
+    width: 20%;
+    top: 8%;
+}
+
+.summerSale {
+    position: absolute;
+    left: 2%;
+    width: 30%;
+    top: 4%;
+}
+
+.popSurf {
+    position: absolute;
+    left: 1%;
+    width: 45%;
+    top: 48%;
+}
+
+.surfCloud {
+    position: absolute;
+    right: 25%;
+    width: 12%;
+    top: 75%;
+}
+
+.surfCloud2 {
+    position: absolute;
+    right: -2%;
+    width: 20%;
+    bottom: -5%;
+}
+
+.lastPart {
+    height: 220vh;
+    background-color: rgb(168, 224, 245);
+    background-image: url('../img/bottomFrame/ocean.png');
+    background-position: bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.lastTitle {
+    height: 12vh;
+    margin-top: 16vh;
+    margin-bottom: 2%;
+}
+
+.lastInfo {
+    text-align: left;
+    color: rgb(20, 41, 136);
+    font-size: 2rem;
+    line-height: 4rem;
+    padding: 0 6%;
+    text-indent: -1em;
+    margin-bottom: 0;
 }

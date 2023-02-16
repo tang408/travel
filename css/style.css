@@ -5,6 +5,10 @@
 
 header .navbar {
     background-color: #f9f9f9;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
 }
 
 header .text-item li a {
@@ -29,9 +33,10 @@ main {
 /* 1 */
 
 main .banner {
-    background-image: url("../img/background-1.png");
+    background-image: url("../img/sand-back.jpg");
     width: 100%;
     background-repeat: no-repeat;
+    padding-top: 10vh;
 }
 
 .online img {
@@ -120,6 +125,20 @@ main .banner {
     color: #fcff00;
 }
 
+/* 3 */
+
+.carouselPart {
+    position: relative;
+}
+.starfish {
+    left: 50%;
+    top: 20vh;
+}
+.starfishBlue {
+    position: absolute;
+    left: 10%;
+    top: 20vh;
+}
 
 /* main .banner {
   position: fixed;
@@ -132,7 +151,7 @@ main .banner {
 } */
 
 .imgBackground-one {
-    height: 200vh;
+    height: 400vh;
     padding: 5vh 0;
 }
 

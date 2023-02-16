@@ -1,0 +1,99 @@
+.floating {
+    -webkit-animation: floating 4s infinite;
+    -moz-animation: floating 4s infinite;
+    -ms-animation: floating 4s infinite;
+    animation: floating 4s infinite;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -ms-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes floating {
+    0% {
+        transform: translate(-20px, 50px) rotate(-8deg);
+    }
+
+    50% {
+        transform: translate(0,0) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-30px, 50px) rotate(-10deg);
+    }
+}
+
+.rotateAn {
+    -webkit-animation: rotateAn 6s infinite;
+    -moz-animation: rotateAn 6s infinite;
+    -ms-animation: rotateAn 6s infinite;
+    animation: rotateAn 6s infinite;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -ms-animation-timing-function: ease;
+    animation-timing-function: ease;
+}
+
+@-webkit-keyframes rotateAn {
+    0% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+.rotateBack {
+    -webkit-animation: rotateBack 6s infinite;
+    -moz-animation: rotateBack 6s infinite;
+    -ms-animation: rotateBack 6s infinite;
+    animation: rotateBack 6s infinite;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -ms-animation-timing-function: ease;
+    animation-timing-function: ease;
+}
+
+@-webkit-keyframes rotateBack {
+    0% {
+        transform: rotate(12deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(12deg);
+    }
+}
+
+.rotateSlow {
+    -webkit-animation: rotateSlow 7s infinite;
+    -moz-animation: rotateSlow 7s infinite;
+    -ms-animation: rotateSlow 7s infinite;
+    animation: rotateSlow 7s infinite;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -ms-animation-timing-function: ease;
+    animation-timing-function: ease;
+}
+
+@-webkit-keyframes rotateSlow {
+    0% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}

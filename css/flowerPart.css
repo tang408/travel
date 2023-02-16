@@ -1,0 +1,7 @@
+.flowerPart {
+    background-color: rgb(23, 42, 136);
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

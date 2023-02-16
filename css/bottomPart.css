@@ -1,0 +1,13 @@
+.surfPart {
+    height: 92vh;
+    background-image: url('../img/bottomFrame/frame.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bottomTitle {
+    width: 50%;
+}

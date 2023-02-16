@@ -1,3 +1,51 @@
+.girl-slide {
+    animation: slide 2s ease-out;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 100%;
+    }
+    20% {
+        margin-left: 50%;
+    }
+}
+
+.airplane-slide {
+    animation: slideFromRight 2s ease-out;
+    animation-delay: .3s;
+}
+
+@keyframes slideFromRight {
+    0% {
+        margin-left: -100%;
+    }
+}
+
+.swing {
+    transform-origin: top center;
+    animation: swing 2s ease;
+    animation-delay: 1.5s;
+}
+
+@keyframes swing {
+    20% {
+        transform: rotate(15deg);
+    }
+    40% {
+        transform: rotate(-10deg);
+    }
+    60% {
+        transform: rotate(5deg);
+    }
+    80% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .floating {
     -webkit-animation: floating 4s infinite;
     -moz-animation: floating 4s infinite;
@@ -13,11 +61,9 @@
     0% {
         transform: translate(-20px, 50px) rotate(-8deg);
     }
-
     50% {
-        transform: translate(0,0) rotate(0deg);
+        transform: translate(0, 0) rotate(0deg);
     }
-
     100% {
         transform: translate(-30px, 50px) rotate(-10deg);
     }
@@ -38,21 +84,19 @@
     0% {
         transform: rotate(-10deg);
     }
-
     50% {
         transform: rotate(0deg);
     }
-
     100% {
         transform: rotate(-10deg);
     }
 }
 
 .rotateBack {
-    -webkit-animation: rotateBack 6s infinite;
-    -moz-animation: rotateBack 6s infinite;
-    -ms-animation: rotateBack 6s infinite;
-    animation: rotateBack 6s infinite;
+    -webkit-animation: rotateBack 4.5s infinite;
+    -moz-animation: rotateBack 4.5s infinite;
+    -ms-animation: rotateBack 4.5s infinite;
+    animation: rotateBack 4.5s infinite;
     -webkit-animation-timing-function: ease;
     -moz-animation-timing-function: ease;
     -ms-animation-timing-function: ease;
@@ -61,23 +105,21 @@
 
 @-webkit-keyframes rotateBack {
     0% {
-        transform: rotate(12deg);
+        transform: rotate(20deg);
     }
-
     50% {
         transform: rotate(0deg);
     }
-
     100% {
-        transform: rotate(12deg);
+        transform: rotate(20deg);
     }
 }
 
 .rotateSlow {
-    -webkit-animation: rotateSlow 7s infinite;
-    -moz-animation: rotateSlow 7s infinite;
-    -ms-animation: rotateSlow 7s infinite;
-    animation: rotateSlow 7s infinite;
+    -webkit-animation: rotateSlow 4s infinite;
+    -moz-animation: rotateSlow 4s infinite;
+    -ms-animation: rotateSlow 4s infinite;
+    animation: rotateSlow 4s infinite;
     -webkit-animation-timing-function: ease;
     -moz-animation-timing-function: ease;
     -ms-animation-timing-function: ease;
@@ -86,14 +128,12 @@
 
 @-webkit-keyframes rotateSlow {
     0% {
-        transform: rotate(-10deg);
+        transform: rotate(-40deg);
     }
-
     50% {
         transform: rotate(0deg);
     }
-
     100% {
-        transform: rotate(-10deg);
+        transform: rotate(-40deg);
     }
 }

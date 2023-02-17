@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="./css/flowerPart.css" />
     <link rel="stylesheet" href="./css/accordionPart.css" />
     <link rel="stylesheet" href="./css/bottomPart.css" />
+    <link rel="stylesheet" href="./css/eventPart.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -94,7 +99,8 @@
                     <img class="purpleBtn" src="./img/purple-btn.png" alt="" />
                     <br>
                     <img class="buyToGet" src="./img/buyToGet.png" alt="" />
-                    <p class="pearlFont activityTitle">華航世界任你遊
+                    <p class="pearlFont activityTitle">
+                        華航世界任你遊<br class="show-mobile">
                         <span class="doublePlane">雙機
                             <span style="font-size: 2.4rem;">不可失</span>
                         </span>
@@ -112,8 +118,33 @@
                     <img class="shell rotateBack" src="./img/shell.png" alt="" />
                     <img class="ring floating" src="./img/ring.png" alt="" />
                     <img class="starfish rotateSlow" src="./img/starfish.png" alt="" />
-                    <br>
-                    <img class="signUpTitle " src="./img/優惠訂起來.png" alt="" />
+                    <br />
+                    <img class="signUpTitle" src="./img/優惠訂起來.png" alt="" />
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image: url('./img/carousel/ming.jpg');">
+                                <p class="swiper-title">名古屋</p>
+                                <p class="swiper-price">NT$ <span class="price">15,000</span> 起</p>
+                            </div>
+                            <div class="swiper-slide" style="background-image: url('./img/carousel/guang.jpg');">
+                                <p class="swiper-title">廣島</p>
+                                <p class="swiper-price">NT$ <span class="price">10,000</span> 起</p>
+                            </div>
+                            <div class="swiper-slide" style="background-image: url('./img/carousel/kao.jpg');">
+                                <p class="swiper-title">高松</p>
+                                <p class="swiper-price">NT$ <span class="price">12,000</span> 起</p>
+                            </div>
+                            <div class="swiper-slide" style="background-image: url('./img/carousel/fu.jpg');">
+                                <p class="swiper-title">福岡</p>
+                                <p class="swiper-price">NT$ <span class="price">12,000</span> 起</p>
+                            </div>
+                            <div class="swiper-slide" style="background-image: url('./img/carousel/chong.jpg');">
+                                <p class="swiper-title">沖繩</p>
+                                <p class="swiper-price">NT$ <span class="price">9,000</span> 起</p>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
                 <div class="eventPart">
 
@@ -161,15 +192,15 @@
                 </div>
                 <div class="accordionPart">
                     <div class="gallery-container">
-                        <div class="gallery-item" data-src="1.jpg">
+                        <div class="gallery-item" data-src="名古屋.png">
                             <span class="gallery-item__text">來趣名古屋</span>
                             <img class="gallery-item__img" src="./img/flowerTravel/名古屋.png">
                         </div>
-                        <div class="gallery-item" data-src="2.jpg">
+                        <div class="gallery-item" data-src="名古屋.png">
                             <span class="gallery-item__text">來趣名古屋</span>
                             <img class="gallery-item_img" src="./img/flowerTravel/名古屋.png">
                         </div>
-                        <div class="gallery-item" data-src="3.jpg">
+                        <div class="gallery-item" data-src="名古屋.png">
                             <span class="gallery-item__text">來趣名古屋</span>
                             <img class="gallery-item_img" src="./img/flowerTravel/名古屋.png">
                         </div>
@@ -196,21 +227,35 @@
     const popin = document.querySelector('.popin')
     const closeBtn = document.querySelector('.popin-btn-close')
 
-
     if (items && popin && closeBtn) {
         closeBtn.addEventListener('click', e => {
-                const el = popin.querySelector('img')
-                el.remove()
-                popin.style.display = 'none'
-            })
-            // items.forEach(i => {
-            //     i.addEventListener('click', el => {
-            //         const picture = el.target.src
-            //         const img = document.createElement('img')
-            //         img.setAttribute('src', picture)
-            //         popin.appendChild(img)
-            //         popin.style.display = 'flex'
-            //     })
-            // })
+            const el = popin.querySelector('img')
+            el.remove()
+            popin.style.display = 'none'
+        })
     }
+
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 20,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: false,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            // when window width is >= 640px
+            800: {
+                slidesPerView: 5,
+                spaceBetween: 20
+            }
+        }
+    });
 </script>

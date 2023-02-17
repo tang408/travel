@@ -83,3 +83,9 @@
 .gallery-container .gallery-item:hover {
     width: 80%;
 }
+
+@media screen and (max-width: 800px) {
+    .gallery-container {
+        height: 55vh;
+    }
+}

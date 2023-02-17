@@ -71,10 +71,10 @@
     }
     .swiper-price {
         height: 5rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 5rem;
     }
     .swiper-price .price {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }

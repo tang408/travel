@@ -1,85 +1,96 @@
 .accordionPart {
-    width: 100%;
+  width: 100%;
 }
 
 .accordionPart,
 .accordionPart * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .popin {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #333334;
-    display: none;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333334;
+  display: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .popin-btn-close {
-    position: absolute;
-    width: 4rem;
-    height: 4rem;
-    background-color: #555556;
-    font-size: 3rem;
-    top: 1rem;
-    right: 1rem;
-    border-radius: 999px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background-color: #555556;
+  font-size: 3rem;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .popin-btn-close:hover {
-    background-color: #7b7b7c;
+  background-color: #7b7b7c;
 }
 
 .popin img {
-    height: 100vh;
+  height: 100vh;
 }
 
 .gallery-container {
-    width: 100%;
-    height: 92vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .gallery-container .gallery-item {
-    position: relative;
-    background-color: #333334;
-    height: 100%;
-    /* 這裡調整每個寬度 */
-    width: 33.33%;
-    overflow: hidden;
-    transition: width 0.3s ease-in-out;
-    cursor: pointer;
-    box-shadow: -5px 0 10px 1px rgba(0, 0, 0, 0.30);
+  position: relative;
+  background-color: #333334;
+  height: 100%;
+  /* 這裡調整每個寬度 */
+  width: 33.33%;
+  overflow: hidden;
+  transition: width 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: -5px 0 10px 1px rgba(0, 0, 0, 0.3);
 }
 
 .gallery-container .gallery-item__img {
-    height: 100%;
+  height: 100%;
 }
 
 .gallery-container .gallery-item__text {
-    position: absolute;
-    margin: auto;
-    width: 100%;
-    bottom: 33%;
-    padding: 0;
-    font-size: 4.5rem;
-    font-weight: bolder;
-    color: white;
-    text-align: center;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  bottom: 33%;
+  padding: 0;
+  font-size: 4.5rem;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
 }
 
 .gallery-container .gallery-item:hover {
-    width: 80%;
+  width: 80%;
+}
+
+.accordionPart .modal {
+  z-index: 10000;
+}
+
+.accordionPart .btn-close {
+  z-index: 100000;
+  position: absolute;
+  top: 3%;
+  right: 3%;
 }

@@ -1,231 +1,228 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    overflow-x: hidden;
-    font-size: 16px;
+  overflow-x: hidden;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 1600px) {
-    html {
-        font-size: 12px;
-    }
+  html {
+    font-size: 12px;
+  }
 }
 
 header .navbar {
-    background-color: #f9f9f9;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 9999;
+  background-color: #f9f9f9;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
 }
 
 header .text-item li a {
-    color: #68a9e1 !important;
-    font-weight: 900;
+  color: #68a9e1 !important;
+  font-weight: 900;
 }
 
 header .text-item li a:active {
-    color: #68a9e1 !important;
+  color: #68a9e1 !important;
 }
 
 header .icon-item a {
-    padding-left: 1vw !important;
-    padding-right: 1vw !important;
+  padding-left: 1vw !important;
+  padding-right: 1vw !important;
 }
 
 main {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* 1 */
 
 main .banner {
-    background-image: url("../img/sand-back.jpg");
-    width: 100%;
-    background-repeat: no-repeat;
-    padding-top: 10vh;
+  background-image: url("../img/sand-back.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  padding-top: 10vh;
 }
 
 .online img {
-    width: 40vw;
-    margin: 0 0 2vh 0;
+  width: 40vw;
+  margin: 0 0 2vh 0;
 }
 
 .date img {
-    width: 20vw;
+  width: 20vw;
 }
 
 .title img {
-    width: 65vw;
-    margin: 2vh 0 0 0;
+  width: 65vw;
+  margin: 2vh 0 0 0;
 }
 
 .cloudRight-two {
-    position: absolute;
-    top: 35%;
-    right: 0%;
+  position: absolute;
+  top: 35%;
+  right: 0%;
 }
 
 .cloudRight-one {
-    position: absolute;
-    top: 90%;
-    right: 15%;
+  position: absolute;
+  top: 90%;
+  right: 15%;
 }
 
 .cloudLeft-two {
-    position: absolute;
-    top: 80%;
-    left: 9%;
-    width: 25vw;
+  position: absolute;
+  top: 80%;
+  left: 9%;
+  width: 25vw;
 }
 
 .earthPart {
-    display: flex;
-    flex-wrap: nowrap;
-    /* align-content: center; */
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  /* align-content: center; */
+  justify-content: center;
+  align-items: center;
 }
 
 .earthPart img {
-    position: absolute;
+  position: absolute;
 }
 
 .travel-around {
-    /* margin-top: 15vh; */
-    margin-top: 10%;
-    z-index: 11;
-    width: 60%;
+  /* margin-top: 15vh; */
+  margin-top: 10%;
+  z-index: 11;
+  width: 60%;
 }
 
 .girl {
-    width: 25%;
-    /* margin-top: 22vh;
+  width: 25%;
+  /* margin-top: 22vh;
     margin-left: 5vw; */
-    margin-top: 12%;
-    margin-left: 5%;
+  margin-top: 12%;
+  margin-left: 5%;
 }
 
 .airplane {
-    width: 45%;
-    /* margin-top: 30vh; */
-    margin-top: 18%;
-    margin-left: 0;
+  width: 45%;
+  /* margin-top: 30vh; */
+  margin-top: 18%;
+  margin-left: 0;
 }
 
 .earth {
-    width: 30%;
-    /* margin-top: 28vh; */
-    margin-top: 15%;
+  width: 30%;
+  /* margin-top: 28vh; */
+  margin-top: 15%;
 }
 
 .chanceYellow {
-    width: 20%;
-    /* margin-top: 6vh;
+  width: 20%;
+  /* margin-top: 6vh;
     margin-left: 20vw; */
-    margin-top: 5%;
-    margin-left: 25%;
+  margin-top: 5%;
+  margin-left: 25%;
 }
-
 
 /* 2 */
 
 .part2 {
-    position: relative;
+  position: relative;
 }
 
 .leaf-left {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 15%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 15%;
 }
 
 .leaf-right {
-    position: absolute;
-    right: 0;
-    top: 30%;
-    width: 18%;
+  position: absolute;
+  right: 0;
+  top: 30%;
+  width: 18%;
 }
 
 .purpleBtn {
-    margin-top: 65vh;
-    width: 35%;
+  margin-top: 65vh;
+  width: 35%;
 }
 
 .buyToGet {
-    width: 40%;
-    margin: 8vh 0 5vh 0;
+  width: 40%;
+  margin: 8vh 0 5vh 0;
 }
 
 .activityTitle {
-    color: #108db6;
-    font-size: 3rem;
-    line-height: 4rem;
-    margin-top: 30px;
+  color: #108db6;
+  font-size: 3rem;
+  line-height: 4rem;
+  margin-top: 30px;
 }
 
 .activityInfo {
-    color: #108db6;
-    font-size: 2rem;
-    line-height: 4rem;
+  color: #108db6;
+  font-size: 2rem;
+  line-height: 4rem;
 }
 
 .doublePlane {
-    padding: 0px 20px;
-    background-color: #108db6;
-    color: #fcff00;
+  padding: 0px 20px;
+  background-color: #108db6;
+  color: #fcff00;
 }
-
 
 /* 3 */
 
 .carouselPart {
-    position: relative;
-    margin-top: 10%;
+  position: relative;
+  margin-top: 10%;
 }
 
 .starfish {
-    margin-right: 20%;
-    top: 20%;
-    width: 15%;
+  margin-right: 20%;
+  top: 20%;
+  width: 15%;
 }
 
 .ring {
-    position: absolute;
-    left: 55%;
-    top: -10%;
-    width: 15%;
+  position: absolute;
+  left: 55%;
+  top: -10%;
+  width: 15%;
 }
 
 .shell {
-    position: absolute;
-    right: 18%;
-    top: 60%;
-    width: 12%;
+  position: absolute;
+  right: 18%;
+  top: 60%;
+  width: 12%;
 }
 
 .tree {
-    position: absolute;
-    right: 0;
-    top: -25%;
-    width: 20%;
+  position: absolute;
+  right: 0;
+  top: -25%;
+  width: 20%;
 }
 
 .starfishBlue {
-    position: absolute;
-    left: 5%;
-    top: 20%;
-    width: 15%;
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  width: 15%;
 }
 
 .signUpTitle {
-    margin-top: 4%;
-    height: 12vh;
+  margin-top: 4%;
+  height: 12vh;
 }
 
 /* main .banner {
@@ -239,35 +236,37 @@ main .banner {
 } */
 
 .imgBackground-one {
-    height: 380vh;
-    /* padding: 5vh 0; */
-    padding: 2% 0 0 0;
+  height: 380vh;
+  /* padding: 5vh 0; */
+  padding: 2% 0 0 0;
 }
 
 @media (min-width: 992px) {
-    .text-item li a {
-        padding-left: 2vw !important;
-        padding-right: 2vw !important;
-    }
-    .text-item li:before {
-        content: "|";
-        float: left;
-        color: #68a9e1;
-        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-    }
-    .text-item li:first-child:before {
-        display: none;
-    }
+  .text-item li a {
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+  }
+  .text-item li:before {
+    content: "|";
+    float: left;
+    color: #68a9e1;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  }
+  .text-item li:first-child:before {
+    display: none;
+  }
 }
-
 
 /* 粉圓體 */
 
 @font-face {
-    font-family: FakePearl-Regular;
-    src: url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff) format("woff");
+  font-family: FakePearl-Regular;
+  src: url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff)
+      format("woff");
 }
 
 .pearlFont {
-    font-family: "FakePearl-Regular";
+  font-family: "FakePearl-Regular";
 }

@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
+    position: relative;
 }
 
 .activities {
@@ -20,7 +21,7 @@
 }
 
 .stepCard {
-    padding: 0rem 2rem;
+    padding: 0rem 5rem;
     display: inline-block;
     margin-top: -5vh;
 }
@@ -38,7 +39,7 @@
     padding: 0 5px;
     color: #8f5200;
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .stepCard p {
@@ -46,43 +47,47 @@
     margin-bottom: 0;
     padding: 2vh 3vw;
     text-align: start;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .stepCardNumber {
     position: relative;
     display: block;
-    top: 9rem;
-    left: -1.5rem;
-    width: 60px;
-    height: 60px;
+    top: 12rem;
+    left: -3.5rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
     background-color: #8f5200;
     color: #fcdcb0;
     font-weight: bold;
     text-align: center;
-    line-height: 60px;
-    font-size: 2.2rem;
+    line-height: 8rem;
+    font-size: 5rem;
 }
 
 .stepText {
     height: 230px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     display: grid;
     align-items: center;
     border-radius: 10px;
+    padding: 0 3rem;
 }
 
 .clickFinish {
-    width: 25%;
+    width: 30%;
+    margin-top: 10vh;
 }
 
 .suitcase {
     position: absolute;
-    width: 25vw;
+    width: 40%;
     right: 1%;
+    bottom: 6%;
 }
 
 .activitiesInfo {
     height: 14vh;
+    margin: 4vh 0 4vh 0;
 }

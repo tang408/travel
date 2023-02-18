@@ -110,13 +110,33 @@
 }
 
 @media screen and (max-width: 800px) {
+
+    .camera {
+        top: 1%;
+        left: 50%;
+        width: 30%;
+    }
+    .popsicle  {
+        width: 15%;
+        top: 2%;
+    }
     .starfishRed {
         width: 30%;
+        display: none;
+    }
+    .ring2 {
+        top: 5%;
+    }
+    .ball {
+        width: 30%;
+    }
+    .slippers {
+        width: 25%;
     }
     .blueBackSubtitle,
     .pinkBackSubtitle {
-        font-size: 1.5rem;
-        padding: .5rem 1rem;
+        font-size: 1.4rem;
+        padding: .5rem 1.5rem;
     }
     .blueSubtitle {
         margin-top: 4%;
@@ -124,25 +144,29 @@
     }
     .blueBigInfo,
     .pinkBigInfo {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .blueBackInfo,
     .pinkBackInfo {
-        font-size: 1.5rem;
-        padding: .5rem .5rem;
+        font-size: 1.4rem;
+        padding: .5rem 0;
         line-height: 3rem;
+        margin: 3% 10%;
     }
     .bluePart {
         height: auto;
-        padding: 10vh 0;
+        padding: 10vh 0 12vh 0;
     }
     .pinkBackSubtitle span {
-        font-size: 1.5rem !important;
+        font-size: 1.2rem !important;
     }
     .blueTitle {
         position: relative;
         margin-top: 10%;
         width: auto;
         height: 4.5vh;
+    }
+    .subtitleSpace {
+        display: none;
     }
 }

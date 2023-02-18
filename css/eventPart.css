@@ -161,6 +161,7 @@
 .eventPart .modal {
   opacity: 0.9;
 }
+
 .eventPart .modal-backdrop {
   background-color: #fff;
 }
@@ -168,7 +169,8 @@
 .eventPart .modal ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #4886a3;
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
 }
 
 .eventPart .modal :-ms-input-placeholder {
@@ -185,8 +187,7 @@
 .eventPart .county select,
 .eventPart .district select {
   appearance: none;
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%2326749a'><polygon points='0,0 100,0 50,50'/></svg>")
-    no-repeat;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%2326749a'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
   background-repeat: no-repeat;
   background-position: right 0.7rem top 70%;
   background-size: 1rem auto;
@@ -260,7 +261,8 @@
 .selectBoxs input[type="checkbox"] {
   display: none;
 }
-.selectBoxs input[type="checkbox"] + label span {
+
+.selectBoxs input[type="checkbox"]+label span {
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -269,7 +271,8 @@
   background-color: #fff;
   cursor: pointer;
 }
-.selectBoxs input[type="checkbox"]:checked + label span {
+
+.selectBoxs input[type="checkbox"]:checked+label span {
   background-color: #4886a3;
 }
 
@@ -284,13 +287,60 @@
     margin: 8% 0 1% 0;
   }
 
+  .step {
+    padding-left: 25px;
+  }
+
   .stepCard {
     padding: 0;
+    margin-top: -7vh;
+  }
+
+  .stepCardNumber {
+    top: 10rem;
+    left: -3.5rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    line-height: 6rem;
+    font-size: 3.5rem;
+  }
+
+  .stepText {
+    height: 180px;
+    padding: 0 3rem;
+    width: 79vw;
+  }
+
+  .stepCard p {
+    padding: 1vh 1vw;
+    text-align: start;
+    font-size: 1.5rem;
+  }
+
+  .stepCard h2 span {
+    font-size: 3rem;
+  }
+  
+  .clickFinish  {
+    width: 75%;
+    margin-top: 2vh;
+  }
+
+  .suitcase {
+    width: 80%;
+    bottom: 4%;
   }
 
   .activities {
     font-size: 1.5rem;
     line-height: 3rem;
-    padding: 0 1rem;
+    padding: 0 .5rem;
+  }
+
+  .activitiesTitle {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: bold;
   }
 }

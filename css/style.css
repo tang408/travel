@@ -241,6 +241,10 @@ main .banner {
   padding: 2% 0 0 0;
 }
 
+.show-mobile {
+    display: none;
+}
+
 @media (min-width: 992px) {
   .text-item li a {
     padding-left: 2vw !important;

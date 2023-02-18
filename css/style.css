@@ -285,6 +285,17 @@ main .banner {
 }
 
 @media screen and (max-width: 800px) {
+    .nav-link {
+        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+    header .logoAirlines {
+        width: 50%;
+        padding: 10px 0;
+    }
+    header .icon-item {
+        flex-direction: row;
+    }
     main .banner {
         background-size: auto 100%;
     }

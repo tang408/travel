@@ -68,28 +68,28 @@
     margin-bottom: 0;
 }
 
-.surfCloud2{
+.surfCloud2 {
     width: 18vw;
     height: 19vh;
     position: absolute;
     right: 0%;
     top: 85.5%;
     z-index: 2;
-  }
-  
-.surfCloud2 img{
+}
+
+.surfCloud2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: 0% 100%;
 }
 
-
-.order{
-    position: absolute;
+.order {
+    position: fixed;
     right: 2%;
     width: 10%;
     bottom: 2%;
+    z-index: 99999;
 }
 
 @media screen and (max-width: 800px) {
@@ -133,7 +133,9 @@
         height: 100%;
         padding-bottom: 45%;
     }
+    .order {
+        right: 2%;
+        width: 20%;
+        bottom: 2%;
+    }
 }
-
-
-

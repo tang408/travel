@@ -1,131 +1,131 @@
 .eventPart {
-  background-color: #ffefd6;
-  height: 200vh;
-  background-image: url("../img/cityMask.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom;
-  position: relative;
+    background-color: #ffefd6;
+    height: 210vh;
+    background-image: url("../img/cityMask.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    position: relative;
 }
 
 .activities {
-  color: #8f5200;
-  font-size: 2rem;
-  line-height: 5rem;
+    color: #8f5200;
+    font-size: 2rem;
+    line-height: 5rem;
 }
 
 .activitiesTitle {
-  color: #8f5200;
-  font-size: 3rem;
-  line-height: 4rem;
+    color: #8f5200;
+    font-size: 3rem;
+    line-height: 4rem;
 }
 
 .stepCard {
-  padding: 0rem 5rem;
-  display: inline-block;
-  margin-top: -5vh;
+    padding: 0rem 5rem;
+    display: inline-block;
+    margin-top: -12vh;
 }
 
 .stepCard h2 {
-  color: #3f3d56;
-  bottom: 30px;
-  position: relative;
-  left: 20%;
-  font-size: 1.5rem;
-  display: inline;
+    color: #3f3d56;
+    bottom: 30px;
+    position: relative;
+    left: 20%;
+    font-size: 1.5rem;
+    display: inline;
 }
 
 .stepCard h2 span {
-  background-color: #ffefd6;
-  padding: 0 5px;
-  color: #8f5200;
-  font-weight: bolder;
-  font-size: 3.5rem;
+    background-color: #ffefd6;
+    padding: 0 5px;
+    color: #8f5200;
+    font-weight: bolder;
+    font-size: 3.5rem;
 }
 
 .stepCard p {
-  color: #8f5200;
-  margin-bottom: 0;
-  padding: 2vh 3vw;
-  text-align: start;
-  font-size: 2rem;
+    color: #8f5200;
+    margin-bottom: 0;
+    padding: 2vh 3vw;
+    text-align: start;
+    font-size: 2rem;
 }
 
 .stepCardNumber {
-  position: relative;
-  display: block;
-  top: 12rem;
-  left: -3.5rem;
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  background-color: #8f5200;
-  color: #fcdcb0;
-  font-weight: bold;
-  text-align: center;
-  line-height: 8rem;
-  font-size: 5rem;
+    position: relative;
+    display: block;
+    top: 12rem;
+    left: -3.5rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #8f5200;
+    color: #fcdcb0;
+    font-weight: bold;
+    text-align: center;
+    line-height: 8rem;
+    font-size: 5rem;
 }
 
 .stepText {
-  height: 28vh;
-  width: 32vw;
-  border: 2px solid #fff;
-  display: grid;
-  align-items: center;
-  border-radius: 10px;
-  padding: 0 3rem;
+    height: 28vh;
+    width: 32vw;
+    border: 2px solid #fff;
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 3rem;
 }
 
-.writeForm{
-  background-color: #ffefd6b2 !important;
+.writeForm {
+    background-color: #ffefd6b2 !important;
 }
 
 .clickFinish {
-  width: 30%;
-  margin-top: 10vh;
+    width: 30%;
+    margin-top: 10vh;
 }
 
 .suitcase {
-  position: absolute;
-  width: 40%;
-  right: 1%;
-  bottom: 6%;
+    position: absolute;
+    width: 40%;
+    right: 1%;
+    bottom: 6%;
 }
 
 .activitiesInfo {
-  height: 14vh;
-  margin: 4vh 0;
+    height: 14vh;
+    margin: 4vh 0;
 }
 
 #exampleModal {
-  z-index: 10000;
+    z-index: 10000;
 }
 
 .modal-backdrop {
-  background-color: #fff;
-  overflow-y: hidden;
+    background-color: #fff;
+    overflow-y: hidden;
 }
 
 .modal-header,
 .modal-footer {
-  border: none !important;
+    border: none !important;
 }
 
 .modalBuyToGet {
-  width: 40%;
-  margin-bottom: 2vh;
+    width: 40%;
+    margin-bottom: 2vh;
 }
 
 #zipcode3 {
-  display: flex;
+    display: flex;
 }
 
 .custom-file-label::after {
-  left: 0;
-  right: auto;
-  border-left-width: 0;
-  border-right: inherit;
+    left: 0;
+    right: auto;
+    border-left-width: 0;
+    border-right: inherit;
 }
 
 .fileGroup label,
@@ -133,219 +133,213 @@
 .eventPart .form-control,
 .eventPart .form-select,
 .eventPart .address {
-  border: 2px solid #4886a3;
-  background-color: #fff;
-  color: #4886a3;
-  border-radius: 50px;
-  margin: 1vh 0;
+    border: 2px solid #4886a3;
+    background-color: #fff;
+    color: #4886a3;
+    border-radius: 50px;
+    margin: 1vh 0;
 }
 
 .eventPart .county,
 .eventPart .district {
-  background-color: #fff;
-  color: #4886a3;
-  border-radius: 50px;
-  margin: 1vh 1vh 1vh 0;
+    background-color: #fff;
+    color: #4886a3;
+    border-radius: 50px;
+    margin: 1vh 1vh 1vh 0;
 }
 
 .eventPart .text {
-  border: 2px solid #4886a3;
-  background-color: #fff;
-  color: #4886a3;
-  border-radius: 10px;
-  margin: 1vh 0;
-  text-align: start;
-  padding: 2vh 3vh;
+    border: 2px solid #4886a3;
+    background-color: #fff;
+    color: #4886a3;
+    border-radius: 10px;
+    margin: 1vh 0;
+    text-align: start;
+    padding: 2vh 3vh;
 }
 
 .eventPart .modal-dialog-scrollable .modal-content {
-  max-height: 80%;
-  overflow: hidden;
+    max-height: 80%;
+    overflow: hidden;
 }
 
 .eventPart .modal {
-  opacity: 0.9;
+    opacity: 0.9;
 }
 
 .eventPart .modal-backdrop {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .eventPart .modal ::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #4886a3;
-  opacity: 1;
-  /* Firefox */
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #4886a3;
+    opacity: 1;
+    /* Firefox */
 }
 
 .eventPart .modal :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #4886a3;
+    /* Internet Explorer 10-11 */
+    color: #4886a3;
 }
 
 .eventPart .modal ::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #4886a3;
+    /* Microsoft Edge */
+    color: #4886a3;
 }
 
 .buyRoute,
 .eventPart .county select,
 .eventPart .district select {
-  appearance: none;
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%2326749a'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
-  background-repeat: no-repeat;
-  background-position: right 0.7rem top 70%;
-  background-size: 1rem auto;
+    appearance: none;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%2326749a'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 70%;
+    background-size: 1rem auto;
 }
 
 #inputGroupFile::file-selector-text {
-  display: none;
+    display: none;
 }
 
 .fileGroup label {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5vh 1.5vh;
-  align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5vh 1.5vh;
+    align-items: center;
 }
 
 #fileinp {
-  position: absolute;
-  left: 0;
-  top: 10%;
-  opacity: 0;
-  width: 100%;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    opacity: 0;
+    width: 100%;
 }
 
 #btn {
-  margin-right: 5px;
-  background-color: #acacac;
-  color: #fff;
-  border: none;
-  padding: 0.35vh 3vh;
+    margin-right: 5px;
+    background-color: #acacac;
+    color: #fff;
+    border: none;
+    padding: 0.35vh 3vh;
 }
 
 #fileText {
-  color: #4886a3;
+    color: #4886a3;
 }
 
 .buyRoute {
-  text-align: start;
-  padding: 0.5vh 1.5vh;
-  align-items: center;
-  display: flex;
-  color: #4886a3;
+    text-align: start;
+    padding: 0.5vh 1.5vh;
+    align-items: center;
+    display: flex;
+    color: #4886a3;
 }
 
 .buyRoute span {
-  width: 100%;
+    width: 100%;
 }
 
 .selectBoxs {
-  background-color: #8fa5df;
-  color: #fff;
-  padding: 10px;
-  position: absolute;
-  border-radius: 3px;
-  text-overflow: ellipsis;
-  word-break: keep-all;
-  overflow: hidden;
-  white-space: nowrap;
-  border: 0;
-  width: 88%;
-  margin: -1vh 2vh;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  display: none;
-  opacity: 0.8;
-  text-align: start;
+    background-color: #8fa5df;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    border-radius: 3px;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
+    width: 88%;
+    margin: -1vh 2vh;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    display: none;
+    opacity: 0.8;
+    text-align: start;
 }
 
 .selectBoxs input[type="checkbox"] {
-  display: none;
+    display: none;
 }
 
 .selectBoxs input[type="checkbox"]+label span {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  margin: 8px;
-  vertical-align: middle;
-  background-color: #fff;
-  cursor: pointer;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 8px;
+    vertical-align: middle;
+    background-color: #fff;
+    cursor: pointer;
 }
 
 .selectBoxs input[type="checkbox"]:checked+label span {
-  background-color: #4886a3;
+    background-color: #4886a3;
 }
 
 .selectBoxs label {
-  display: inline-flex;
-  align-items: center;
+    display: inline-flex;
+    align-items: center;
 }
 
 @media screen and (max-width: 800px) {
-  .activitiesInfo {
-    height: 7vh;
-    margin: 8% 0 1% 0;
-  }
-
-  .step {
-    padding-left: 25px;
-  }
-
-  .stepCard {
-    padding: 0;
-    margin-top: -7vh;
-  }
-
-  .stepCardNumber {
-    top: 10rem;
-    left: -3.5rem;
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    line-height: 6rem;
-    font-size: 3.5rem;
-  }
-
-  .stepText {
-    height: 180px;
-    padding: 0 3rem;
-    width: 79vw;
-  }
-
-  .stepCard p {
-    padding: 1vh 1vw;
-    text-align: start;
-    font-size: 1.5rem;
-  }
-
-  .stepCard h2 span {
-    font-size: 3rem;
-  }
-  
-  .clickFinish  {
-    width: 75%;
-    margin-top: 2vh;
-  }
-
-  .suitcase {
-    width: 80%;
-    bottom: 4%;
-  }
-
-  .activities {
-    font-size: 1.5rem;
-    line-height: 3rem;
-    padding: 0 .5rem;
-  }
-
-  .activitiesTitle {
-    font-size: 2rem;
-    line-height: 3.5rem;
-    font-weight: bold;
-  }
+    .activitiesInfo {
+        height: 7vh;
+        margin: 8% 0 1% 0;
+    }
+    .step {
+        padding-left: 25px;
+    }
+    .stepCard {
+        padding: 0;
+        margin-top: -7vh;
+    }
+    .stepCardNumber {
+        top: 10rem;
+        left: -3.5rem;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        line-height: 6rem;
+        font-size: 3.5rem;
+    }
+    .stepText {
+        height: 150px;
+        padding: 0 2.5rem;
+        width: 79vw;
+        font-size: .8rem;
+    }
+    .stepCard p {
+        padding: 1vh 2vw;
+        text-align: start;
+        font-size: 1.4rem;
+    }
+    .stepCard h2 {
+        bottom: 20px;
+    }
+    .stepCard h2 span {
+        font-size: 2.5rem;
+    }
+    .clickFinish {
+        width: 75%;
+        margin-top: 2vh;
+    }
+    .suitcase {
+        width: 80%;
+        bottom: 4%;
+    }
+    .activities {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        padding: 0 .5rem;
+    }
+    .activitiesTitle {
+        font-size: 2rem;
+        line-height: 3.5rem;
+        font-weight: bold;
+    }
 }

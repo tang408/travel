@@ -41,12 +41,12 @@
     top: 75%;
 }
 
-.surfCloud2 {
+/* .surfCloud2 {
     position: absolute;
     right: -2%;
     width: 20%;
     bottom: -5%;
-}
+} */
 
 .lastPart {
     height: 220vh;
@@ -116,3 +116,22 @@
         padding-bottom: 45%;
     }
 }
+
+
+.surfCloud2{
+    /* width: 342px;
+    height: 174px; */
+    width: 18vw;
+    height: 19vh;
+    position: absolute;
+    right: 0%;
+    top: 85.5%;
+  }
+  
+  .surfCloud2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 100%;
+  }
+

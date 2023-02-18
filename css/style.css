@@ -14,6 +14,10 @@ html {
   }
 }
 
+header .logoAirlines{
+  width: 20%;
+}
+
 header .navbar {
   background-color: #f9f9f9;
   position: fixed;

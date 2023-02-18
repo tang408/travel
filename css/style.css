@@ -270,3 +270,110 @@ main .banner {
 .pearlFont {
   font-family: "FakePearl-Regular";
 }
+
+
+@media screen and (max-width: 800px) {
+    main .banner {
+        background-size: auto 100%;
+    }
+    header .navbar {
+        width: 100vw;
+    }
+    .online img {
+        width: 90%;
+        margin: 0 0 1vh 0;
+    }
+    .imgBackground-one {
+        height: 200vh;
+        background-size: auto 100%;
+        /* padding: 5vh 0; */
+        padding: 2% 0 0 0;
+    }
+    .date img {
+        width: 50%;
+    }
+    .title img {
+        width: 90%;
+        margin: 1.5vh 0 0 0;
+    }
+    .earth {
+        width: 70%;
+        top: 30%;
+    }
+    .girl {
+        width: 60%;
+        top: 25%;
+        left: 30%;
+    }
+    .airplane {
+        width: 95%;
+        top: 38%;
+        left: 2.5%;
+    }
+    .travel-around {
+        width: 95%;
+        top: 38%;
+    }
+    .chanceYellow {
+        width: 40%;
+        margin-top: 17%;
+    }
+    .purpleBtn {
+        margin-top: 45vh;
+        width: 70%;
+    }
+    .leaf-right {
+        top: 22%;
+        width: 36%;
+    }
+    .leaf-left {
+        top: 25%;
+        width: 25%;
+    }
+    .signUpTitle {
+        margin-top: 20%;
+        height: 6vh;
+    }
+    .buyToGet {
+        height: 6vh;
+        width: auto;
+        margin: 8vh 0 0 0;
+    }
+    .activityInfo {
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+    }
+    .tree {
+        top: -10%;
+        width: 30%;
+        right: -5%;
+    }
+    .ring {
+        left: 35%;
+        top: -6%;
+        width: 20%;
+    }
+    .starfish {
+        position: absolute;
+        left: -12%;
+        top: -10%;
+        width: 35%;
+    }
+    .starfishBlue {
+        left: 2%;
+        top: -25%;
+        width: 20%;
+    }
+    .shell {
+        right: 25%;
+        top: 4%;
+        width: 18%;
+    }
+    .carouselPart {
+        height: 80vh;
+    }
+    .show-mobile {
+        display: block;
+        height: 20px;
+    }
+}

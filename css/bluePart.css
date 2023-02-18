@@ -108,3 +108,41 @@
 .pinkBigInfo {
     color: rgb(192, 16, 123);
 }
+
+@media screen and (max-width: 800px) {
+    .starfishRed {
+        width: 30%;
+    }
+    .blueBackSubtitle,
+    .pinkBackSubtitle {
+        font-size: 1.5rem;
+        padding: .5rem 1rem;
+    }
+    .blueSubtitle {
+        margin-top: 4%;
+        width: 20%;
+    }
+    .blueBigInfo,
+    .pinkBigInfo {
+        font-size: 2rem;
+    }
+    .blueBackInfo,
+    .pinkBackInfo {
+        font-size: 1.5rem;
+        padding: .5rem .5rem;
+        line-height: 3rem;
+    }
+    .bluePart {
+        height: auto;
+        padding: 10vh 0;
+    }
+    .pinkBackSubtitle span {
+        font-size: 1.5rem !important;
+    }
+    .blueTitle {
+        position: relative;
+        margin-top: 10%;
+        width: auto;
+        height: 4.5vh;
+    }
+}

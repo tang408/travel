@@ -72,3 +72,47 @@
     text-indent: -1em;
     margin-bottom: 0;
 }
+
+
+@media screen and (max-width: 800px) {
+    .lastTitle {
+        height: 6vh;
+        margin-top: 4vh;
+        margin-bottom: 5%;
+    }
+    .surfPart {
+        height: 30vh;
+    }
+    .bottomTitle {
+        width: 80%;
+    }
+    .surf {
+        display: none;
+    }
+    .summerSale {
+        display: none;
+    }
+    .popSurf {
+        display: none;
+    }
+    .surfCloud {
+        display: none;
+    }
+    .surfCloud2 {
+        display: none;
+    }
+    .lastInfo {
+        text-align: justify;
+        color: rgb(20, 41, 136);
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        padding: 0 5%;
+        margin-left: 2%;
+        text-indent: -1em;
+        margin-bottom: 0;
+    }
+    .lastPart {
+        height: 100%;
+        padding-bottom: 45%;
+    }
+}

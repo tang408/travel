@@ -208,7 +208,6 @@
 
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
-                        <!-- <div class="modal-dialog modal-fullscreen"> -->
                         <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -240,31 +239,27 @@
                                                             placeholder="機票訂位編號" />
                                                     </div>
                                                     <div class="col-12">
-                                                        <select id="buyRoute" class="form-select"
-                                                            aria-label="Default select example">
-                                                            <option hidden selected>購買航線</option>
-                                                            <option value="1">東南亞線</option>
-                                                            <option value="2">日本二線</option>
-                                                            <option value="3">任何航點</option>
-                                                        </select>
+                                                        <div class="buyRoute">
+                                                            <span>
+                                                                <div class="defaultValue"></div>
+                                                                購買航線
+                                                            </span>
+                                                        </div>
 
-                                                        <!-- <div class="select">
-                                <input
-                                  type="text"
-                                  class="choose"
-                                  placeholder="选择型号"
-                                  name="model"
-                                />
-                                <div class="option">
-                                  <ul>
-                                    <li>VMC650</li>
-                                    <li>VMC850</li>
-                                    <li>VMC1160</li>
-                                    <li>VMC1580</li>
-                                    <li>其他</li>
-                                  </ul>
-                                </div>
-                              </div> -->
+                                                        <ul id=" " value="" class="selectBoxs">
+                                                            <li value="1">
+                                                                <input type="checkbox" id="c1" name="route" />
+                                                                <label for="c1"><span></span>東南亞線</label>
+                                                            </li>
+                                                            <li value="2">
+                                                                <input type="checkbox" id="c2" name="route" />
+                                                                <label for="c2"><span></span>日本二線</label>
+                                                            </li>
+                                                            <li value="3">
+                                                                <input type="checkbox" id="c3" name="route" />
+                                                                <label for="c3"><span></span>任何航點</label>
+                                                            </li>
+                                                        </ul>
                                                     </div>
 
                                                     <div class="col-12">
@@ -539,35 +534,17 @@
     });
     const exampleModal = document.getElementById("exampleModal");
     exampleModal.addEventListener("show.bs.modal", (event) => {
-        // Button that triggered the modal
-        const button = event.relatedTarget;
-        // Extract info from data-bs-* attributes
-        const recipient = button.getAttribute("data-bs-whatever");
+        console.log(event);
     });
 
     const exampleModal1 = document.getElementById("exampleModal1");
-    exampleModal1.addEventListener("show.bs.modal", (event) => {
-        // Button that triggered the modal
-        const button = event.relatedTarget;
-        // Extract info from data-bs-* attributes
-        const recipient = button.getAttribute("data-bs-whatever");
-    });
+    exampleModal1.addEventListener("show.bs.modal", (event) => { });
 
     const exampleModal2 = document.getElementById("exampleModal2");
-    exampleModal1.addEventListener("show.bs.modal", (event) => {
-        // Button that triggered the modal
-        const button = event.relatedTarget;
-        // Extract info from data-bs-* attributes
-        const recipient = button.getAttribute("data-bs-whatever");
-    });
+    exampleModal1.addEventListener("show.bs.modal", (event) => { });
 
     const exampleModal3 = document.getElementById("exampleModal3");
-    exampleModal1.addEventListener("show.bs.modal", (event) => {
-        // Button that triggered the modal
-        const button = event.relatedTarget;
-        // Extract info from data-bs-* attributes
-        const recipient = button.getAttribute("data-bs-whatever");
-    });
+    exampleModal1.addEventListener("show.bs.modal", (event) => { });
 
     $("#zipcode3").twzipcode({
         zipcodeIntoDistrict: true,
@@ -576,21 +553,20 @@
         districtName: "town", // 指定地區 select name
     });
 
-  //   //option下拉框
-  //   $(".choose").click(function () {
-  //     console.log("a");
-  //     $(".option").toggle();
-  //   });
-  //   //点击input和body空白处隐藏
-  //   $("body").click(function (e) {
-  //     if (!$(e.target).closest(".choose,.option").length) {
-  //       $(".option").hide();
-  //     }
-  //   });
-  //   //取li的内容替换input内容
-  //   $(".option li").click(function () {
-  //     var _text = $(this).text();
-  //     $(".choose").val(_text);
-  //     $(".option").hide();
-  //   });
+    var selectBox = $(".selectBoxs"); //下拉框
+    var selectlist = $(".selectBoxs li");
+    var stuate = $(".buyRoute span"); //點選狀態
+
+    var routeButton = stuate.click(function () {
+        selectBox.show();
+
+        $(document).on("click", 'input[type="checkbox"]', function () {
+            $('input[type="checkbox"]').not(this).prop("checked", false);
+        });
+    });
+
+    selectlist.click(function () {
+        selectBox.hide();
+        $(this).parent().prev().find("span").html($(this).text());
+    });
 </script>

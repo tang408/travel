@@ -88,11 +88,22 @@
   z-index: 10000;
 }
 
+.accordionPart .modal-body img {
+  width: 100vw;
+  height: 100vh;
+}
+
 .accordionPart .btn-close {
   z-index: 100000;
   position: absolute;
-  top: 3%;
+  top: 0%;
   right: 3%;
+  --bs-btn-close-opacity: 1;
+  color: #fff;
+  --bs-btn-close-bg: none;
+  font-size: 5rem;
+  width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 800px) {

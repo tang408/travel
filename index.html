@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/animation.css" />
     <link rel="stylesheet" href="./css/bluePart.css" />
@@ -16,557 +19,730 @@
     <link rel="stylesheet" href="./css/bottomPart.css" />
     <link rel="stylesheet" href="./css/eventPart.css" />
     <link rel="stylesheet" href="./css/carousel.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/twzipcode.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="./js/jquery.twzipcode.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-twzipcode@1.7.14/jquery.twzipcode.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <img src="./img/logo.png" alt="" />
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-item">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">買機票抽機票</a>
-                        </li>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <img src="./img/logo.png" alt="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-item">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >買機票抽機票</a
+                >
+              </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">優惠訂起來</a>
-                        </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">優惠訂起來</a>
+              </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">跟著小花趣旅行</a>
-                        </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">跟著小花趣旅行</a>
+              </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">得獎須知</a>
-                        </li>
-                    </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">得獎須知</a>
+              </li>
+            </ul>
 
-                    <ul class="navbar-nav icon-item">
-                        <li class="nav-item">
-                            <a class="nav-link" href=""><img src="./img/fb.png" /></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href=""><img src="./img/ig.png" /></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href=""><img src="./img/yt.png" /></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+            <ul class="navbar-nav icon-item">
+              <li class="nav-item">
+                <a class="nav-link" href=""><img src="./img/fb.png" /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><img src="./img/ig.png" /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><img src="./img/yt.png" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <div class="banner">
-            <div class="imgBackground-one">
-                <img class="cloudLeft-one" src="" alt="" />
-                <img class="cloudLeft-two" src="./img/cloud2.png" alt="" />
-                <img class="cloudRight-one" src="./img/cloud1.png" alt="" />
-                <img class="cloudRight-two" src="./img/cloud3.png" alt="" />
-                <div class="online">
-                    <img src="./img/2023online.png" alt="" />
+      <div class="banner">
+        <div class="imgBackground-one">
+          <img class="cloudLeft-one" src="" alt="" />
+          <img class="cloudLeft-two" src="./img/cloud2.png" alt="" />
+          <img class="cloudRight-one" src="./img/cloud1.png" alt="" />
+          <img class="cloudRight-two" src="./img/cloud3.png" alt="" />
+          <div class="online">
+            <img src="./img/2023online.png" alt="" />
+          </div>
+          <div class="date">
+            <img src="./img/date.png" alt="" />
+          </div>
+          <div class="title hithere">
+            <img src="./img/worldTravel.png" alt="" />
+          </div>
+          <div class="earthPart">
+            <img class="earth rotateAn" src="./img/earth.png" alt="" />
+            <img
+              class="travel-around"
+              src="./img/Travel around the world.png"
+              alt=""
+            />
+            <img class="girl girl-slide" src="./img/girl-vacation.png" alt="" />
+            <img
+              class="airplane airplane-slide"
+              src="./img/airplane.png"
+              alt=""
+            />
+            <img
+              class="chanceYellow swing"
+              src="./img/chanceYellow.png"
+              alt=""
+            />
+          </div>
+          <div class="part2">
+            <img class="leaf-left" src="./img/leaf-left.png" alt="" />
+            <img class="leaf-right" src="./img/leaf-right.png" alt="" />
+            <img class="purpleBtn" src="./img/purple-btn.png" alt="" />
+            <br />
+            <img class="buyToGet" src="./img/buyToGet.png" alt="" />
+            <p class="pearlFont activityTitle">
+              華航世界任你遊
+              <span class="doublePlane"
+                >雙機
+                <span style="font-size: 2.4rem">不可失</span>
+              </span>
+            </p>
+            <p class="pearlFont activityInfo">
+              疫情大解放，華航將近60個國家任您遊<br />
+              新航線隨時解鎖，多個熱門航點加開航班 <br />
+              並在夏季線上旅展，準備一波波的優惠活動，心動不如馬上行動 <br />
+              本次還有跟著小花趣旅行–買機票 抽機票<br />
+              留言即有機會恣意飛翔
+              <br />
+            </p>
+          </div>
+          <div class="carouselPart">
+            <img
+              class="starfishBlue rotateAn"
+              src="./img/starfishBlue.png"
+              alt=""
+            />
+            <img class="tree" src="./img/tree.png" alt="" />
+            <img class="shell rotateBack" src="./img/shell.png" alt="" />
+            <img class="ring floating" src="./img/ring.png" alt="" />
+            <img class="starfish rotateSlow" src="./img/starfish.png" alt="" />
+            <br />
+            <img class="signUpTitle" src="./img/優惠訂起來.png" alt="" />
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide"
+                  style="background-image: url('./img/carousel/ming.jpg')"
+                >
+                  <p class="swiper-title">名古屋</p>
+                  <p class="swiper-price">
+                    NT$ <span class="price">15,000</span> 起
+                  </p>
                 </div>
-                <div class="date">
-                    <img src="./img/date.png" alt="" />
+                <div
+                  class="swiper-slide"
+                  style="background-image: url('./img/carousel/guang.jpg')"
+                >
+                  <p class="swiper-title">廣島</p>
+                  <p class="swiper-price">
+                    NT$ <span class="price">10,000</span> 起
+                  </p>
                 </div>
-                <div class="title hithere">
-                    <img src="./img/worldTravel.png" alt="" />
+                <div
+                  class="swiper-slide"
+                  style="background-image: url('./img/carousel/kao.jpg')"
+                >
+                  <p class="swiper-title">高松</p>
+                  <p class="swiper-price">
+                    NT$ <span class="price">12,000</span> 起
+                  </p>
                 </div>
-                <div class="earthPart">
-                    <img class="earth rotateAn" src="./img/earth.png" alt="" />
-                    <img class="travel-around" src="./img/Travel around the world.png" alt="" />
-                    <img class="girl girl-slide" src="./img/girl-vacation.png" alt="" />
-                    <img class="airplane airplane-slide" src="./img/airplane.png" alt="" />
-                    <img class="chanceYellow swing" src="./img/chanceYellow.png" alt="" />
+                <div
+                  class="swiper-slide"
+                  style="background-image: url('./img/carousel/fu.jpg')"
+                >
+                  <p class="swiper-title">福岡</p>
+                  <p class="swiper-price">
+                    NT$ <span class="price">12,000</span> 起
+                  </p>
                 </div>
-                <div class="part2">
-                    <img class="leaf-left" src="./img/leaf-left.png" alt="" />
-                    <img class="leaf-right" src="./img/leaf-right.png" alt="" />
-                    <img class="purpleBtn" src="./img/purple-btn.png" alt="" />
-                    <br />
-                    <img class="buyToGet" src="./img/buyToGet.png" alt="" />
-                    <p class="pearlFont activityTitle">
-                        華航世界任你遊
-                        <span class="doublePlane">雙機
-                            <span style="font-size: 2.4rem">不可失</span>
-                        </span>
-                    </p>
-                    <p class="pearlFont activityInfo">
-                        疫情大解放，華航將近60個國家任您遊<br />
-                        新航線隨時解鎖，多個熱門航點加開航班 <br />
-                        並在夏季線上旅展，準備一波波的優惠活動，心動不如馬上行動 <br />
-                        本次還有跟著小花趣旅行–買機票 抽機票<br />
-                        留言即有機會恣意飛翔
-                        <br />
-                    </p>
+                <div
+                  class="swiper-slide"
+                  style="background-image: url('./img/carousel/chong.jpg')"
+                >
+                  <p class="swiper-title">沖繩</p>
+                  <p class="swiper-price">
+                    NT$ <span class="price">9,000</span> 起
+                  </p>
                 </div>
-                <div class="carouselPart">
-                    <img class="starfishBlue rotateAn" src="./img/starfishBlue.png" alt="" />
-                    <img class="tree" src="./img/tree.png" alt="" />
-                    <img class="shell rotateBack" src="./img/shell.png" alt="" />
-                    <img class="ring floating" src="./img/ring.png" alt="" />
-                    <img class="starfish rotateSlow" src="./img/starfish.png" alt="" />
-                    <br />
-                    <img class="signUpTitle" src="./img/優惠訂起來.png" alt="" />
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image: url('./img/carousel/ming.jpg');">
-                                <p class="swiper-title">名古屋</p>
-                                <p class="swiper-price">NT$ <span class="price">15,000</span> 起</p>
-                            </div>
-                            <div class="swiper-slide" style="background-image: url('./img/carousel/guang.jpg');">
-                                <p class="swiper-title">廣島</p>
-                                <p class="swiper-price">NT$ <span class="price">10,000</span> 起</p>
-                            </div>
-                            <div class="swiper-slide" style="background-image: url('./img/carousel/kao.jpg');">
-                                <p class="swiper-title">高松</p>
-                                <p class="swiper-price">NT$ <span class="price">12,000</span> 起</p>
-                            </div>
-                            <div class="swiper-slide" style="background-image: url('./img/carousel/fu.jpg');">
-                                <p class="swiper-title">福岡</p>
-                                <p class="swiper-price">NT$ <span class="price">12,000</span> 起</p>
-                            </div>
-                            <div class="swiper-slide" style="background-image: url('./img/carousel/chong.jpg');">
-                                <p class="swiper-title">沖繩</p>
-                                <p class="swiper-price">NT$ <span class="price">9,000</span> 起</p>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-                <div class="eventPart">
-                    <img class="suitcase" src="./img/suitcase.png" alt="" />
-                    <img class="activitiesInfo" src="./img/activities.png" alt="" />
-                    <p class="pearlFont activities">
-                        凡於活動期間2023/5/12~5/29，前往2023華航夏季線上旅展<br />
-                        『跟著小花趣旅行–買機票 抽機票』活動頁，購買任何航線之來回機票<br />
-                        依步驟完成，將有機會
-                        <span class="activitiesTitle">一抽東南亞或日本二線任一航點來回機票！！</span>
-                        <br />
-                        若購買以下
-                        <span class="activitiesTitle">東南亞線及日本二線來回機票</span>
-                        ，則有機會二抽機票加碼 <br />
-                        讓您與親朋好友一同恣意飛翔。
-                        <br />
-                    </p>
-                    <div class="step pearlFont">
-                        <div class="stepCard">
-                            <div class="stepCardNumber">1</div>
-                            <div class="stepText">
-                                <p>
-                                    請登入或申請華夏會員<br />
-                                    購買各航線之來回機 <br />
-                                    https://reurl.cc/Ad1988
-                                </p>
-                            </div>
-                            <h2><span>登入會員</span></h2>
-                        </div>
-                        <div class="stepCard">
-                            <div class="stepCardNumber">2</div>
-                            <div class="stepText">
-                                <p>
-                                    請協助將本活動頁轉貼至FB<br />
-                                    並TAG三名好友和留言選擇 <br />
-                                    你最想去的東南亞或日本二 <br />
-                                    線航線
-                                </p>
-                            </div>
-                            <h2><span>分享好友</span></h2>
-                        </div>
-                    </div>
-                    <div class="step pearlFont">
-                        <div class="stepCard">
-                            <div class="stepCardNumber">3</div>
-                            <div class="stepText">
-                                <p>
-                                    登入會員填寫基本資料後<br />
-                                    才能參加抽獎活動唷
-                                </p>
-                            </div>
-                            <h2><span>填寫表單</span></h2>
-                        </div>
-                    </div>
-
-                    <img class="clickFinish scaling" src="./img/completeBtnRed.png" alt="" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal" />
-
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <form>
-                                        <div class="container">
-                                            <div class="mb-3">
-                                                <img class="modalBuyToGet" src="./img/buyToGet.png" alt="" />
-
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <input type="text" class="form-control" id="recipient-name"
-                                                            placeholder="姓名" />
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <input type="text" class="form-control" id="recipient-name"
-                                                            placeholder="手機" />
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <input type="text" class="form-control" id="recipient-name"
-                                                            placeholder="華夏會員帳號" />
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <input type="text" class="form-control" id="recipient-name"
-                                                            placeholder="機票訂位編號" />
-                                                    </div>
-                                                    <div class="col-12">
-                                                        <div class="buyRoute">
-                                                            <span>
-                                                                <div class="defaultValue"></div>
-                                                                購買航線
-                                                            </span>
-                                                        </div>
-
-                                                        <ul id=" " value="" class="selectBoxs">
-                                                            <li value="1">
-                                                                <input type="checkbox" id="c1" name="route" />
-                                                                <label for="c1"><span></span>東南亞線</label>
-                                                            </li>
-                                                            <li value="2">
-                                                                <input type="checkbox" id="c2" name="route" />
-                                                                <label for="c2"><span></span>日本二線</label>
-                                                            </li>
-                                                            <li value="3">
-                                                                <input type="checkbox" id="c3" name="route" />
-                                                                <label for="c3"><span></span>任何航點</label>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-
-                                                    <div class="col-12">
-                                                        <input type="text" class="form-control" id="recipient-name"
-                                                            placeholder="Email" />
-                                                    </div>
-                                                    <div class="col-12">
-                                                        <div id="zipcode3">
-                                                            <div class="col-3">
-                                                                <div class="county" data-role="county"></div>
-                                                            </div>
-
-                                                            <div class="col-3">
-                                                                <div class="district" data-role="district"></div>
-                                                            </div>
-                                                            <div class="col-6">
-                                                                <input name="Address" type="text"
-                                                                    class="address form-control" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 fileGroup">
-                                                        <label for="fileinp">
-                                                            <span id="fileText">上傳分享TAG留言截圖</span>
-                                                            <input type="button" id="btn" value="選擇檔案" />
-                                                            <input type="file" id="fileinp" />
-                                                        </label>
-                                                    </div>
-                                                    <div class="col-12">
-                                                        <label class="text">
-                                                            <h3>個人資料保護政策</h3>
-                                                            本抽獎活動僅提供居住在中華民國台澎金馬地區之民眾，尚無提供前述地區以外，參加抽獎活動需登入相關資料以便於抽獎活動結束後快執行獎品送達任務，登入資訊後即代表您同意本個資使用條款並願提供予本次抽獎活動之個人資料，將依中華民國之個人資料保護法規定來蒐集、處理、利用您的個人資料，並維護您的隱私權。同時，本頁面在此對於您個人資料之使用蒐集將依下列聲明為蒐集、處理、管理。
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn">
-                                        <img src="" alt="" />
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bluePart">
-                    <img class="camera rotateBack" src="./img/blueBoard/camera.png" alt="" />
-                    <img class="popsicle rotateAn" src="./img/blueBoard/popsicle.png" alt="" />
-                    <img class="watermelon" src="./img/blueBoard/watermelon.png" alt="" />
-                    <img class="ring2" src="./img/blueBoard/ring2.png" alt="" />
-                    <img class="slippers" src="./img/blueBoard/slippers.png" alt="" />
-                    <img class="ball rotateBack" src="./img/blueBoard/ball.png" alt="" />
-                    <img class="starfishRed" src="./img/blueBoard/starfishRed.png" alt="" />
-                    <img class="blueTitle" src="./img/blueBoard/blueTitle.png" alt="" />
-                    <br />
-                    <img class="blueSubtitle" src="./img/blueBoard/blueSubtitle.png" alt="" />
-                    <br />
-                    <p class="blueBackSubtitle pearlFont">
-                        只要購買任何航點來回機票，則有機會抽機票或機票抵用券
-                    </p>
-                    <p class="blueBackInfo pearlFont">
-                        頭獎：<span class="blueBigInfo">東南亞航線來回機票</span> 1名
-                        (不含稅金)<br />
-                        貳獎：華航 <span class="blueBigInfo">NT$8,000</span>機票抵用券1名
-                        (僅限歐、美、大洋洲線，不得找零)<br />
-                        參獎：華航 <span class="blueBigInfo">NT$5,000</span>機票抵用券1名
-                        (僅限歐、美、大洋洲線，不得找零)<br />
-                        肆獎：華航 <span class="blueBigInfo">NT$2,000</span>機票抵用券3名
-                        (全國際線皆可使用，不得找零)
-                    </p>
-                    <br />
-                    <img class="blueSubtitle" src="./img/blueBoard/blueSubtitle2.png" alt="" style="margin-top: 0" />
-                    <br />
-                    <p class="pinkBackSubtitle pearlFont">
-                        若購買以下東南亞或日本二線來回機票，則有機會二抽機票加碼
-                        <br />
-                        <span style="font-size: 2rem">
-                            東南亞線：仰光、清邁、曼谷、金邊、河內、峴港、胡志明市、檳城、</span>
-                        <br />
-                        <span style="font-size: 2rem; padding-left: 11rem">吉隆坡、新加坡、雅加達、峇里島、馬尼拉、宿霧</span><br />
-                        <span style="font-size: 2rem">日本二線：名古屋、廣島、高松、福岡、沖繩
-                        </span>
-                    </p>
-                    <p class="pinkBackInfo pearlFont">
-                        <span class="pinkBigInfo">東南亞航線來回機票</span> 1名 (不含稅金)
-                    </p>
-                </div>
-                <div class="flowerPart">
-                    <img class="flower" src="./img/blueBoard/flowerText.png" alt="" />
-                </div>
-                <div class="accordionPart">
-                    <div class="gallery-container">
-                        <div class="gallery-item" data-src="1.jpg">
-                            <span class="gallery-item__text">來趣名古屋</span>
-                            <img class="gallery-item__img" src="./img/flowerTravel/名古屋.png" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal1" />
-                        </div>
-                        <div class="gallery-item" data-src="2.jpg">
-                            <span class="gallery-item__text">來趣名古屋</span>
-                            <img class="gallery-item_img" src="./img/flowerTravel/名古屋.png" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal2" />
-                        </div>
-                        <div class="gallery-item" data-src="3.jpg">
-                            <span class="gallery-item__text">來趣名古屋</span>
-                            <img class="gallery-item_img" src="./img/flowerTravel/名古屋.png" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal3" />
-                        </div>
-                    </div>
-                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-fullscreen">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel1"></h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body"></div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn">
-                                        <img src="./img/flowerTravel/名古屋.png" alt="" />
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-fullscreen">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel2"></h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body"></div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn">
-                                        <img src="./img/flowerTravel/名古屋.png" alt="" />
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-fullscreen">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel3"></h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body"></div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn">
-                                        <img src="./img/flowerTravel/名古屋.png" alt="" />
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="popin">
-                        <div class="popin-btn-close">X</div>
-                    </div>
-                </div>
-                <div class="bottomPart">
-                    <div class="surfPart">
-                        <img class="bottomTitle" src="./img/bottomFrame/Title.png" />
-                        <img class="surf" src="./img/bottomFrame/surf.png" />
-                        <img class="summerSale" src="./img/bottomFrame/sale.png" />
-                        <img class="popSurf" src="./img/bottomFrame/popSurf.png" />
-                        <img class="surfCloud" src="./img/bottomFrame/cloud.png" />
-                        <img class="surfCloud2" src="./img/bottomFrame/cloud.png" />
-                    </div>
-                    <div class="lastPart">
-                        <img class="lastTitle" src="./img/bottomFrame/lastTitle.png" />
-                        <div class="pearlFont">
-                            <p class="lastInfo">
-                                1.
-                                每個帳號須完成以上任務，依照不同任務需求標準可參加1~2次，經審核確認完成所有步驟，才可參加抽獎。
-                            </p>
-                            <p class="lastInfo">
-                                2. 得獎名單將於活動結束後，公布於官方臉書及活動頁。
-                            </p>
-                            <p class="lastInfo">
-                                3.
-                                請得獎人於標記通知得獎一週內私訊回覆，並提供真實姓名、連絡電話、寄送地址等相關核對資料，逾期不候。(如因資料填寫不實、不正確而無法聯絡，或有冒用、盜用情事則自動喪失得獎資格)
-                            </p>
-                            <p class="lastInfo">
-                                4.
-                                獎項贈品係以實物為準，主辦單位保留修改活動或更換等值贈品之權利，且中獎者不得要求指定獎項更改或折換成現金。
-                            </p>
-                            <p class="lastInfo">
-                                5.
-                                若機票購買後，抽得機票卻臨時取消訂單，華航將有機會取消其得獎資格。
-                            </p>
-                            <p class="lastInfo">
-                                6. 機票使用規章：<br />
-                                a.
-                                發佈得獎日開始為起始日，將於六個月內進行開票作業；若超過其時間，則自動棄權。<br />
-                                b.
-                                國定假日、連續假期、寒暑假，使用需依實際票價扣除贈與之機票金額收取差價。
-                            </p>
-                            <p class="lastInfo">
-                                7. 年度累積中獎價值若超過新臺幣 1,000
-                                元整，應列入中獎人年度綜合所得，所得贈品價值超過新臺幣
-                                20,000元整，中獎人須自行負擔10%之稅金（非中華民國境內居住之個人為
-                                20%），若本人不願提供相關資料或未依期限配合辦理領獎手續等相關事宜者，即視為自動放棄中獎資格。
-                            </p>
-                            <p class="lastInfo">8. 本活動獎項將以郵局掛號寄出。</p>
-                        </div>
-                    </div>
-                </div>
+              </div>
+              <div class="swiper-pagination"></div>
             </div>
-        </div>
-    </main>
-</body>
+          </div>
+          <div class="eventPart">
+            <img class="suitcase" src="./img/suitcase.png" alt="" />
+            <img class="activitiesInfo" src="./img/activities.png" alt="" />
+            <p class="pearlFont activities">
+              凡於活動期間2023/5/12~5/29，前往2023華航夏季線上旅展<br />
+              『跟著小花趣旅行–買機票 抽機票』活動頁，購買任何航線之來回機票<br />
+              依步驟完成，將有機會
+              <span class="activitiesTitle"
+                >一抽東南亞或日本二線任一航點來回機票！！</span
+              >
+              <br />
+              若購買以下
+              <span class="activitiesTitle">東南亞線及日本二線來回機票</span>
+              ，則有機會二抽機票加碼 <br />
+              讓您與親朋好友一同恣意飛翔。
+              <br />
+            </p>
+            <div class="step pearlFont">
+              <div class="stepCard">
+                <div class="stepCardNumber">1</div>
+                <div class="stepText">
+                  <p>
+                    請登入或申請華夏會員<br />
+                    購買各航線之來回機 <br />
+                    https://reurl.cc/Ad1988
+                  </p>
+                </div>
+                <h2><span>登入會員</span></h2>
+              </div>
+              <div class="stepCard">
+                <div class="stepCardNumber">2</div>
+                <div class="stepText">
+                  <p>
+                    請協助將本活動頁轉貼至FB<br />
+                    並TAG三名好友和留言選擇 <br />
+                    你最想去的東南亞或日本二 <br />
+                    線航線
+                  </p>
+                </div>
+                <h2><span>分享好友</span></h2>
+              </div>
+            </div>
+            <div class="step pearlFont">
+              <div class="stepCard">
+                <div class="stepCardNumber">3</div>
+                <div class="stepText">
+                  <p>
+                    登入會員填寫基本資料後<br />
+                    才能參加抽獎活動唷
+                  </p>
+                </div>
+                <h2><span>填寫表單</span></h2>
+              </div>
+            </div>
 
+            <img
+              class="clickFinish scaling"
+              src="./img/completeBtnRed.png"
+              alt=""
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            />
+
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div
+                class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
+              >
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="container">
+                        <div class="mb-3">
+                          <img
+                            class="modalBuyToGet"
+                            src="./img/buyToGet.png"
+                            alt=""
+                          />
+
+                          <div class="row">
+                            <div class="col-6">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="recipient-name"
+                                placeholder="姓名"
+                              />
+                            </div>
+                            <div class="col-6">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="recipient-name"
+                                placeholder="手機"
+                              />
+                            </div>
+                            <div class="col-6">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="recipient-name"
+                                placeholder="華夏會員帳號"
+                              />
+                            </div>
+                            <div class="col-6">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="recipient-name"
+                                placeholder="機票訂位編號"
+                              />
+                            </div>
+                            <div class="col-12">
+                              <div class="buyRoute">
+                                <span>
+                                  <div class="defaultValue"></div>
+                                  購買航線
+                                </span>
+                              </div>
+
+                              <ul id=" " value="" class="selectBoxs">
+                                <li value="1">
+                                  <input type="checkbox" id="c1" name="route" />
+                                  <label for="c1"><span></span>東南亞線</label>
+                                </li>
+                                <li value="2">
+                                  <input type="checkbox" id="c2" name="route" />
+                                  <label for="c2"><span></span>日本二線</label>
+                                </li>
+                                <li value="3">
+                                  <input type="checkbox" id="c3" name="route" />
+                                  <label for="c3"><span></span>任何航點</label>
+                                </li>
+                              </ul>
+                            </div>
+
+                            <div class="col-12">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="recipient-name"
+                                placeholder="Email"
+                              />
+                            </div>
+                            <div class="col-12">
+                              <div id="zipcode3">
+                                <div class="col-3">
+                                  <div class="county" data-role="county"></div>
+                                </div>
+
+                                <div class="col-3">
+                                  <div
+                                    class="district"
+                                    data-role="district"
+                                  ></div>
+                                </div>
+                                <div class="col-6">
+                                  <input
+                                    name="Address"
+                                    type="text"
+                                    class="address form-control"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-12 fileGroup">
+                              <label for="fileinp">
+                                <span id="fileText">上傳分享TAG留言截圖</span>
+                                <input
+                                  type="button"
+                                  id="btn"
+                                  value="選擇檔案"
+                                />
+                                <input type="file" id="fileinp" />
+                              </label>
+                            </div>
+                            <div class="col-12">
+                              <label class="text">
+                                <h3>個人資料保護政策</h3>
+                                本抽獎活動僅提供居住在中華民國台澎金馬地區之民眾，尚無提供前述地區以外，參加抽獎活動需登入相關資料以便於抽獎活動結束後快執行獎品送達任務，登入資訊後即代表您同意本個資使用條款並願提供予本次抽獎活動之個人資料，將依中華民國之個人資料保護法規定來蒐集、處理、利用您的個人資料，並維護您的隱私權。同時，本頁面在此對於您個人資料之使用蒐集將依下列聲明為蒐集、處理、管理。
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn">
+                      <img src="" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bluePart">
+            <img
+              class="camera rotateBack"
+              src="./img/blueBoard/camera.png"
+              alt=""
+            />
+            <img
+              class="popsicle rotateAn"
+              src="./img/blueBoard/popsicle.png"
+              alt=""
+            />
+            <img
+              class="watermelon"
+              src="./img/blueBoard/watermelon.png"
+              alt=""
+            />
+            <img class="ring2" src="./img/blueBoard/ring2.png" alt="" />
+            <img class="slippers" src="./img/blueBoard/slippers.png" alt="" />
+            <img
+              class="ball rotateBack"
+              src="./img/blueBoard/ball.png"
+              alt=""
+            />
+            <img
+              class="starfishRed"
+              src="./img/blueBoard/starfishRed.png"
+              alt=""
+            />
+            <img class="blueTitle" src="./img/blueBoard/blueTitle.png" alt="" />
+            <br />
+            <img
+              class="blueSubtitle"
+              src="./img/blueBoard/blueSubtitle.png"
+              alt=""
+            />
+            <br />
+            <p class="blueBackSubtitle pearlFont">
+              只要購買任何航點來回機票，則有機會抽機票或機票抵用券
+            </p>
+            <p class="blueBackInfo pearlFont">
+              頭獎：<span class="blueBigInfo">東南亞航線來回機票</span> 1名
+              (不含稅金)<br />
+              貳獎：華航 <span class="blueBigInfo">NT$8,000</span>機票抵用券1名
+              (僅限歐、美、大洋洲線，不得找零)<br />
+              參獎：華航 <span class="blueBigInfo">NT$5,000</span>機票抵用券1名
+              (僅限歐、美、大洋洲線，不得找零)<br />
+              肆獎：華航 <span class="blueBigInfo">NT$2,000</span>機票抵用券3名
+              (全國際線皆可使用，不得找零)
+            </p>
+            <br />
+            <img
+              class="blueSubtitle"
+              src="./img/blueBoard/blueSubtitle2.png"
+              alt=""
+              style="margin-top: 0"
+            />
+            <br />
+            <p class="pinkBackSubtitle pearlFont">
+              若購買以下東南亞或日本二線來回機票，則有機會二抽機票加碼
+              <br />
+              <span style="font-size: 2rem">
+                東南亞線：仰光、清邁、曼谷、金邊、河內、峴港、胡志明市、檳城、</span
+              >
+              <br />
+              <span style="font-size: 2rem; padding-left: 11rem"
+                >吉隆坡、新加坡、雅加達、峇里島、馬尼拉、宿霧</span
+              ><br />
+              <span style="font-size: 2rem"
+                >日本二線：名古屋、廣島、高松、福岡、沖繩
+              </span>
+            </p>
+            <p class="pinkBackInfo pearlFont">
+              <span class="pinkBigInfo">東南亞航線來回機票</span> 1名 (不含稅金)
+            </p>
+          </div>
+          <div class="flowerPart">
+            <img class="flower" src="./img/blueBoard/flowerText.png" alt="" />
+          </div>
+          <div class="accordionPart">
+            <div class="gallery-container">
+              <div class="gallery-item" data-src="1.jpg">
+                <span class="gallery-item__text">來趣名古屋</span>
+                <img
+                  class="gallery-item__img"
+                  src="./img/flowerTravel/名古屋.png"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal1"
+                />
+              </div>
+              <div class="gallery-item" data-src="2.jpg">
+                <span class="gallery-item__text">來趣名古屋</span>
+                <img
+                  class="gallery-item_img"
+                  src="./img/flowerTravel/名古屋.png"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2"
+                />
+              </div>
+              <div class="gallery-item" data-src="3.jpg">
+                <span class="gallery-item__text">來趣名古屋</span>
+                <img
+                  class="gallery-item_img"
+                  src="./img/flowerTravel/名古屋.png"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal3"
+                />
+              </div>
+            </div>
+            <div
+              class="modal fade"
+              id="exampleModal1"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel1"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel1"></h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      menu
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./img/flowerTravel/名古屋.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="modal fade"
+              id="exampleModal2"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel2"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel2"></h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      menu
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./img/flowerTravel/名古屋.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="modal fade"
+              id="exampleModal3"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel3"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel3"></h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      menu
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./img/flowerTravel/名古屋.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popin">
+              <div class="popin-btn-close">X</div>
+            </div>
+          </div>
+          <div class="bottomPart">
+            <div class="surfPart">
+              <img class="bottomTitle" src="./img/bottomFrame/Title.png" />
+              <img class="surf" src="./img/bottomFrame/surf.png" />
+              <img class="summerSale" src="./img/bottomFrame/sale.png" />
+              <img class="popSurf" src="./img/bottomFrame/popSurf.png" />
+              <img class="surfCloud" src="./img/bottomFrame/cloud.png" />
+              <img class="surfCloud2" src="./img/bottomFrame/cloud.png" />
+            </div>
+            <div class="lastPart">
+              <img class="lastTitle" src="./img/bottomFrame/lastTitle.png" />
+              <div class="pearlFont">
+                <p class="lastInfo">
+                  1.
+                  每個帳號須完成以上任務，依照不同任務需求標準可參加1~2次，經審核確認完成所有步驟，才可參加抽獎。
+                </p>
+                <p class="lastInfo">
+                  2. 得獎名單將於活動結束後，公布於官方臉書及活動頁。
+                </p>
+                <p class="lastInfo">
+                  3.
+                  請得獎人於標記通知得獎一週內私訊回覆，並提供真實姓名、連絡電話、寄送地址等相關核對資料，逾期不候。(如因資料填寫不實、不正確而無法聯絡，或有冒用、盜用情事則自動喪失得獎資格)
+                </p>
+                <p class="lastInfo">
+                  4.
+                  獎項贈品係以實物為準，主辦單位保留修改活動或更換等值贈品之權利，且中獎者不得要求指定獎項更改或折換成現金。
+                </p>
+                <p class="lastInfo">
+                  5.
+                  若機票購買後，抽得機票卻臨時取消訂單，華航將有機會取消其得獎資格。
+                </p>
+                <p class="lastInfo">
+                  6. 機票使用規章：<br />
+                  a.
+                  發佈得獎日開始為起始日，將於六個月內進行開票作業；若超過其時間，則自動棄權。<br />
+                  b.
+                  國定假日、連續假期、寒暑假，使用需依實際票價扣除贈與之機票金額收取差價。
+                </p>
+                <p class="lastInfo">
+                  7. 年度累積中獎價值若超過新臺幣 1,000
+                  元整，應列入中獎人年度綜合所得，所得贈品價值超過新臺幣
+                  20,000元整，中獎人須自行負擔10%之稅金（非中華民國境內居住之個人為
+                  20%），若本人不願提供相關資料或未依期限配合辦理領獎手續等相關事宜者，即視為自動放棄中獎資格。
+                </p>
+                <p class="lastInfo">8. 本活動獎項將以郵局掛號寄出。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
 
 <script>
-    const items = document.querySelectorAll("[data-src]");
-    const popin = document.querySelector(".popin");
-    const closeBtn = document.querySelector(".popin-btn-close");
+  const items = document.querySelectorAll("[data-src]");
+  const popin = document.querySelector(".popin");
+  const closeBtn = document.querySelector(".popin-btn-close");
 
-    if (items && popin && closeBtn) {
-        closeBtn.addEventListener("click", (e) => {
-            const el = popin.querySelector("img");
-            el.remove();
-            popin.style.display = "none";
-        });
-        // items.forEach(i => {
-        //     i.addEventListener('click', el => {
-        //         const picture = el.target.src
-        //         const img = document.createElement('img')
-        //         img.setAttribute('src', picture)
-        //         popin.appendChild(img)
-        //         popin.style.display = 'flex'
-        //     })
-        // })
-    }
+  if (items && popin && closeBtn) {
+    closeBtn.addEventListener("click", (e) => {
+      const el = popin.querySelector("img");
+      el.remove();
+      popin.style.display = "none";
+    });
+    // items.forEach(i => {
+    //     i.addEventListener('click', el => {
+    //         const picture = el.target.src
+    //         const img = document.createElement('img')
+    //         img.setAttribute('src', picture)
+    //         popin.appendChild(img)
+    //         popin.style.display = 'flex'
+    //     })
+    // })
+  }
 
-    var swiper = new Swiper(".mySwiper", {
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 5,
+    spaceBetween: 20,
+    slidesPerGroup: 3,
+    loop: true,
+    loopFillGroupWithBlank: false,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      // when window width is >= 640px
+      800: {
         slidesPerView: 5,
         spaceBetween: 20,
-        slidesPerGroup: 3,
-        loop: true,
-        loopFillGroupWithBlank: false,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        breakpoints: {
-            // when window width is >= 320px
-            320: {
-                slidesPerView: 2,
-                spaceBetween: 20
-            },
-            // when window width is >= 640px
-            800: {
-                slidesPerView: 5,
-                spaceBetween: 20
-            }
-        }
+      },
+    },
+  });
+  const exampleModal = document.getElementById("exampleModal");
+  exampleModal.addEventListener("show.bs.modal", (event) => {});
+
+  const exampleModal1 = document.getElementById("exampleModal1");
+  exampleModal1.addEventListener("show.bs.modal", (event) => {});
+
+  const exampleModal2 = document.getElementById("exampleModal2");
+  exampleModal1.addEventListener("show.bs.modal", (event) => {});
+
+  const exampleModal3 = document.getElementById("exampleModal3");
+  exampleModal1.addEventListener("show.bs.modal", (event) => {});
+
+  $("#zipcode3").twzipcode({
+    zipcodeIntoDistrict: true,
+    css: ["city form-control", "town form-control"],
+    countyName: "city", // 指定城市 select name
+    districtName: "town", // 指定地區 select name
+  });
+
+  var selectBox = $(".selectBoxs"); //下拉框
+  var selectlist = $(".selectBoxs li");
+  var stuate = $(".buyRoute span"); //點選狀態
+
+  var routeButton = stuate.click(function () {
+    selectBox.show();
+
+    $(document).on("click", 'input[type="checkbox"]', function () {
+      $('input[type="checkbox"]').not(this).prop("checked", false);
     });
-    const exampleModal = document.getElementById("exampleModal");
-    exampleModal.addEventListener("show.bs.modal", (event) => {
-        console.log(event);
-    });
+  });
 
-    const exampleModal1 = document.getElementById("exampleModal1");
-    exampleModal1.addEventListener("show.bs.modal", (event) => { });
-
-    const exampleModal2 = document.getElementById("exampleModal2");
-    exampleModal1.addEventListener("show.bs.modal", (event) => { });
-
-    const exampleModal3 = document.getElementById("exampleModal3");
-    exampleModal1.addEventListener("show.bs.modal", (event) => { });
-
-    $("#zipcode3").twzipcode({
-        zipcodeIntoDistrict: true,
-        css: ["city form-control", "town form-control"],
-        countyName: "city", // 指定城市 select name
-        districtName: "town", // 指定地區 select name
-    });
-
-    var selectBox = $(".selectBoxs"); //下拉框
-    var selectlist = $(".selectBoxs li");
-    var stuate = $(".buyRoute span"); //點選狀態
-
-    var routeButton = stuate.click(function () {
-        selectBox.show();
-
-        $(document).on("click", 'input[type="checkbox"]', function () {
-            $('input[type="checkbox"]').not(this).prop("checked", false);
-        });
-    });
-
-    selectlist.click(function () {
-        selectBox.hide();
-        $(this).parent().prev().find("span").html($(this).text());
-    });
+  selectlist.click(function () {
+    selectBox.hide();
+    $(this).parent().prev().find("span").html($(this).text());
+  });
 </script>

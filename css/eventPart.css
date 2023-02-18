@@ -96,10 +96,16 @@
   z-index: 10000;
 }
 
+.modal-backdrop {
+  background-color: #fff;
+  overflow-y: hidden;
+}
+
 .modal-header,
 .modal-footer {
   border: none !important;
 }
+
 .modalBuyToGet {
   width: 40%;
   margin-bottom: 2vh;
@@ -270,7 +276,6 @@
   display: inline-flex;
   align-items: center;
 }
-
 
 @media screen and (max-width: 800px) {
   .activitiesInfo {

@@ -68,12 +68,17 @@
 }
 
 .stepText {
-  height: 230px;
+  height: 28vh;
+  width: 32vw;
   border: 2px solid #fff;
   display: grid;
   align-items: center;
   border-radius: 10px;
   padding: 0 3rem;
+}
+
+.writeForm{
+  background-color: #ffefd6b2 !important;
 }
 
 .clickFinish {

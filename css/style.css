@@ -39,8 +39,8 @@ header .text-item li a:active {
 }
 
 header .icon-item a {
-    padding-left: 1vw !important;
-    padding-right: 1vw !important;
+    padding-left: 0.5vw !important;
+    padding-right: 0.5vw !important;
 }
 
 main {

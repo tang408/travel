@@ -750,24 +750,24 @@
 
   $("#galleryIdOne").click(function(){
     var MingImg = $("#galleryIdOne").find("img");
-    $(MingImg).addClass("galleryFixedMing");
-    $(MingImg).animate({height:"100%",width:"100%" });
+    $("#galleryIdOne").addClass("galleryFixedMing");
+    // $("#galleryIdOne").animate({height:"100%" ,width:"100%" },1000);
     $("#textMing").show();
     $("#closeMing").show();
 })
 
 $("#galleryIdTwo").click(function(){
   var GuangImg = $("#galleryIdTwo").find("img");
-  $(GuangImg).addClass("galleryFixedGuang");
-  $(GuangImg).animate({height:"100%",width:"100%"});    
+  $("#galleryIdTwo").addClass("galleryFixedMing");
+//   $(GuangImg).animate({height:"100%",width:"100%"});    
     $("#textGuang").show();
     $("#closeGuang").show();
 })
 
 $("#galleryIdThree").click(function(){
   var KaoImg = $("#galleryIdThree").find("img");
-  $(KaoImg).addClass("galleryFixedKao");
-  $(KaoImg).animate({height:"100%",width:"100%"});  
+  $("#galleryIdTwo").addClass("galleryFixedMing");
+//   $(KaoImg).animate({height:"100%",width:"100%"});  
     $("#textKao").show();
     $("#closeKao").show();
 })
@@ -775,14 +775,14 @@ $("#galleryIdThree").click(function(){
 $("#closeMing").click(function(){
   $("#textMing").hide();
   $("#closeMing").hide();
-  $("#galleryIdOne").find("img").removeClass("galleryFixedMing");
+  $("#galleryIdOne").removeClass("galleryFixedMing");
   $("#galleryIdOne").find("img").removeAttr("style");
 })
 
 $("#closeGuang").click(function(){
   $("#textGuang").hide();
   $("#closeGuang").hide();
-  $("#galleryIdTwo").find("img").removeClass("galleryFixedGuang");
+  $("#galleryIdTwo").removeClass("galleryFixedMing");
   $("#galleryIdTwo").find("img").removeAttr("style");
 })
 
@@ -790,7 +790,7 @@ $("#closeGuang").click(function(){
 $("#closeKao").click(function(){
   $("#textKao").hide();
   $("#closeKao").hide();
-  $("#galleryIdThree").find("img").removeClass("galleryFixedKao");
+  $("#galleryIdThree").removeClass("galleryFixedMing");
   $("#galleryIdThree").find("img").removeAttr("style");
 })
 

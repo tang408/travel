@@ -141,27 +141,14 @@
 
 
 .galleryFixedMing{
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
     z-index: 999999;
-    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
 }
 
-.galleryFixedGuang{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999999;
-    object-fit: cover;
-}
-.galleryFixedKao{
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 999999;
-    object-fit: cover;
-}
 
 #textMing,
 #textGuang,

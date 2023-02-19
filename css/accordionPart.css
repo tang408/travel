@@ -131,6 +131,11 @@
     border: white solid 1px;
     padding: 2px 20px;
     background: rgba(0, 0, 0, 0.427);
+    opacity: 1;
+}
+
+.btn-close:hover {
+    opacity: 1;
 }
 
 @media screen and (max-width: 800px) {

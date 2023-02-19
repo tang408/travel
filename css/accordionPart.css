@@ -26,7 +26,7 @@
     width: 4rem;
     height: 4rem;
     background-color: #555556;
-    font-size: 3rem;
+    font-size: 1.5rem;
     top: 1rem;
     right: 1rem;
     border-radius: 999px;
@@ -78,6 +78,7 @@
     font-weight: bolder;
     color: white;
     text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.562);
 }
 
 .gallery-container .gallery-item:hover {
@@ -124,7 +125,7 @@
     --bs-btn-close-opacity: 1;
     color: #fff;
     --bs-btn-close-bg: none;
-    font-size: 5rem;
+    font-size: 1.5rem;
     width: auto;
     height: auto;
 }
@@ -137,8 +138,13 @@
         font-size: 1.8rem;
         bottom: 90%;
         text-align: left;
-        padding-left: 15px;
+        padding-left: 10px;
     }
+    .modal-japan-div h1 {
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    
 }
 
 

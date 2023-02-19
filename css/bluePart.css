@@ -156,6 +156,7 @@
         padding: .5rem 0;
         line-height: 3rem;
         margin: 3% 10%;
+        letter-spacing: -0.1px;
     }
     .bluePart {
         height: auto;

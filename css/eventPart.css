@@ -130,15 +130,18 @@
 
 .fileGroup label,
 .buyRoute,
+.multiselect,
 .eventPart .form-control,
 .eventPart .form-select,
 .eventPart .address {
-    border: 2px solid #4886a3;
-    background-color: #fff;
-    color: #4886a3;
-    border-radius: 50px;
-    margin: 1vh 0;
+    border: 2px solid #4886a3 !important;
+    background-color: #fff !important;
+    color: #4886a3 !important;
+    border-radius: 50px !important;
+    margin: 1vh 0 !important;
 }
+
+
 
 .eventPart .county,
 .eventPart .district {
@@ -288,6 +291,47 @@
 
 .pearlFontMobile {
     display: none;
+}
+
+.btn .caret {
+    display: none;
+}
+
+.col-12 .btn-group {
+    width: 100%;
+}
+
+.multiselect {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.dropdown-toggle::after {
+    border-top: 0.5em solid !important;
+    border-right: 0.5em solid transparent !important;
+    border-left: 0.5em solid transparent !important;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 96% !important;
+    padding: 0.5rem 0;
+    margin: -0.7rem 1rem !important;
+    font-size: 1rem;
+    color: #ffffff !important;
+    text-align: left;
+    list-style: none;
+    background-color: #2b779bdb !important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.25rem;
+}
+
+.dropdown-menu :hover {
+    background-color: transparent !important;
 }
 
 @media screen and (max-width: 800px) {

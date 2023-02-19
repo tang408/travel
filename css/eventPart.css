@@ -286,6 +286,10 @@
     align-items: center;
 }
 
+.pearlFontMobile{
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
     .activitiesInfo {
         height: 7vh;
@@ -342,4 +346,11 @@
         line-height: 3.5rem;
         font-weight: bold;
     }
+
+    .pearlFontDesktop{
+        display: none;
+    }
+    .pearlFontMobile{
+        display: block;
+    } 
 }

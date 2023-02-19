@@ -536,10 +536,21 @@
 <script>
     $(document).ready(function() {
         $('#multiple-checkboxes').multiselect({
-            includeSelectAllOption: true,
+            buttonText: function(options, select) {
+                if (options.length == 0) {
+                    return '購買航線';
+                } else {
+                    var selected = '';
+                    options.each(function() {
+                        selected += $(this).text() + ', ';
+                    });
+                    return selected.substr(0, selected.length - 2);
+                }
+            },
             nonSelectedText: '購買航線',
             includeSelectAllOption: false,
             allSelectedText: "東南亞線,日本二線,其他任何航點"
+
         });
     });
     const items = document.querySelectorAll("[data-src]");

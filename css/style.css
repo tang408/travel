@@ -257,8 +257,18 @@ main .banner {
 }
 
 .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bolder;
+    transition: font-size .5s;
+}
+
+.nav-link img:hover {
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+
+.nav-link:hover {
+    font-size: 1.6rem;
 }
 
 @media (min-width: 992px) {

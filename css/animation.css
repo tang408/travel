@@ -67,6 +67,10 @@
     animation: scaling 2s linear infinite;
 }
 
+.scaling:hover {
+    animation: none;
+}
+
 @keyframes scaling {
     0% {
         transform: scale(1);

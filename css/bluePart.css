@@ -109,6 +109,10 @@
     color: rgb(192, 16, 123);
 }
 
+.pinkBackSubtitleMobile{
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
 
     .camera {
@@ -167,6 +171,14 @@
         height: 4.5vh;
     }
     .subtitleSpace {
+        display: none;
+    }
+
+    .pinkBackSubtitleMobile{
+        display: block;
+    }
+
+    .pinkBackSubtitleDesktop{
         display: none;
     }
 }

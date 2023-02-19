@@ -120,8 +120,8 @@
 .accordionPart .btn-close {
     z-index: 100000;
     position: absolute;
-    top: 1%;
-    right: 3%;
+    top: 5%;
+    right: 2%;
     --bs-btn-close-opacity: 1;
     color: #fff;
     --bs-btn-close-bg: none;

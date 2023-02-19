@@ -59,6 +59,20 @@
     opacity: 1 !important;
 }
 
+.swiper-button-next {
+    top: 95% !important;
+    right: 45% !important;
+    color: rgb(24, 42, 136) !important;
+    font-weight: bolder;
+}
+
+.swiper-button-prev {
+    top: 95% !important;
+    left: 45% !important;
+    color: rgb(24, 42, 136) !important;
+    font-weight: bolder;
+}
+
 .swiper-pagination-bullet-active {
     background-color: rgb(24, 42, 136) !important;
     border: solid 5px white;
@@ -81,5 +95,17 @@
     }
     .swiper-price .price {
         font-size: 2rem;
+    }
+    .swiper-button-next {
+        top: 95% !important;
+        right: 30% !important;
+        color: rgb(24, 42, 136) !important;
+        font-weight: bolder;
+    }
+    .swiper-button-prev {
+        top: 95% !important;
+        left: 30% !important;
+        color: rgb(24, 42, 136) !important;
+        font-weight: bolder;
     }
 }

@@ -73,6 +73,11 @@
     font-weight: bolder;
 }
 
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: red !important;
+}
+
 .swiper-pagination-bullet-active {
     background-color: rgb(24, 42, 136) !important;
     border: solid 5px white;

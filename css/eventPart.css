@@ -286,7 +286,7 @@
     align-items: center;
 }
 
-.pearlFontMobile{
+.pearlFontMobile {
     display: none;
 }
 
@@ -295,13 +295,16 @@
         height: 7vh;
         margin: 8% 0 1% 0;
     }
+
     .step {
         padding-left: 25px;
     }
+
     .stepCard {
         padding: 0;
         margin-top: -7vh;
     }
+
     .stepCardNumber {
         top: 10rem;
         left: -3.5rem;
@@ -311,46 +314,55 @@
         line-height: 6rem;
         font-size: 3.5rem;
     }
+
     .stepText {
         height: 150px;
         padding: 0 2.5rem;
         width: 79vw;
         font-size: .8rem;
     }
+
     .stepCard p {
         padding: 1vh 2vw;
         text-align: start;
         font-size: 1.4rem;
     }
+
     .stepCard h2 {
         bottom: 20px;
     }
+
     .stepCard h2 span {
         font-size: 2.5rem;
     }
+
     .clickFinish {
         width: 75%;
         margin-top: 2vh;
     }
+
     .suitcase {
         width: 80%;
         bottom: 4%;
     }
+
     .activities {
         font-size: 1.5rem;
         line-height: 3rem;
         padding: 0 .5rem;
     }
+
     .activitiesTitle {
         font-size: 2rem;
         line-height: 3.5rem;
         font-weight: bold;
     }
 
-    .pearlFontDesktop{
+    .pearlFontDesktop {
         display: none;
     }
-    .pearlFontMobile{
+
+    .pearlFontMobile {
         display: block;
-    } 
+    }
 }

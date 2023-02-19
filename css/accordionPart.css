@@ -137,3 +137,39 @@
         font-size: 2rem;
     }
 }
+
+
+
+.galleryFixedMing{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    object-fit: cover;
+}
+
+.galleryFixedGuang{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    object-fit: cover;
+}
+.galleryFixedKao{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    object-fit: cover;
+}
+
+#textMing,
+#textGuang,
+#textKao,
+#closeMing,
+#closeGuang,
+#closeKao{
+    display:none; 
+    z-index: 999999;
+    position: fixed;
+}

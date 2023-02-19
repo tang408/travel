@@ -1,5 +1,31 @@
 /* 常用動畫區 */
 
+.slidein {
+    animation: 2s ease-out 0s 1 slidein;
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slideinUp {
+    animation: 1s ease-out 0s 1 slideinUp;
+}
+
+@keyframes slideinUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .reveal {
     position: relative;
     transform: translateY(150px);

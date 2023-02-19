@@ -88,10 +88,32 @@
     z-index: 10000;
 }
 
+.modal-body {
+    overflow: hidden;
+}
+
 .accordionPart .modal-body img {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+}
+
+.modal-japan-div {
+    bottom: 0;
+    position: absolute;
+    text-align: justify;
+    background: #0000008c;
+    color: white;
+    padding: 2% 10%;
+    font-size: 1.2rem;
+}
+
+.modal-japan-div h1 {
+    border-left: white solid 15px;
+    padding-left: 20px;
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
 }
 
 .accordionPart .btn-close {

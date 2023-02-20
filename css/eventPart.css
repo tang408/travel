@@ -199,6 +199,7 @@
     background-repeat: no-repeat;
     background-position: right 0.7rem top 70%;
     background-size: 1rem auto;
+    padding: 0 0.9rem;
 }
 
 #inputGroupFile::file-selector-text {
